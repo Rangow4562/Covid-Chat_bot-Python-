@@ -1,0 +1,21 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "covid-19",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "coronavirus",
+      "synonyms": [
+        "coronavirus",
+        "corona virus",
+        "coV",
+        "covid-19",
+        "COVID 19"
+      ]
+    }
+  ],
+  "id": "b6067430-4e79-4ac2-8874-5794a49f99c6",
+  "isOverridable": false
+}

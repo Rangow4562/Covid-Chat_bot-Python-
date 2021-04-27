@@ -1,0 +1,63 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "surface",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "surface",
+      "synonyms": [
+        "surface",
+        "surfaces"
+      ]
+    },
+    {
+      "value": "paper",
+      "synonyms": [
+        "paper",
+        "money",
+        "book"
+      ]
+    },
+    {
+      "value": "plastic",
+      "synonyms": [
+        "plastic",
+        "plastics",
+        "pvc"
+      ]
+    },
+    {
+      "value": "wood",
+      "synonyms": [
+        "wood",
+        "wooden material",
+        "table",
+        "desk"
+      ]
+    },
+    {
+      "value": "metal",
+      "synonyms": [
+        "metal",
+        "copper",
+        "aluminum",
+        "door nob"
+      ]
+    },
+    {
+      "value": "clothes",
+      "synonyms": [
+        "clothes",
+        "fabric",
+        "jacket",
+        "coat",
+        "cloth",
+        "towel"
+      ]
+    }
+  ],
+  "id": "39b4624f-03ab-41de-ac85-50c88e03f12b",
+  "isOverridable": false
+}

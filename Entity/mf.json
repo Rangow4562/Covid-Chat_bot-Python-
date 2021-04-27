@@ -1,0 +1,47 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "mf",
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "transgender",
+      "synonyms": [
+        "transgender"
+      ]
+    },
+    {
+      "value": "male",
+      "synonyms": [
+        "male"
+      ]
+    },
+    {
+      "value": "female",
+      "synonyms": [
+        "female"
+      ]
+    },
+    {
+      "value": "MALE",
+      "synonyms": [
+        "MALE"
+      ]
+    },
+    {
+      "value": "FEMALE",
+      "synonyms": [
+        "FEMALE"
+      ]
+    },
+    {
+      "value": "Other",
+      "synonyms": [
+        "Other"
+      ]
+    }
+  ],
+  "id": "f331064c-6ee5-4437-a39e-ec1669a0f352",
+  "isOverridable": false
+}

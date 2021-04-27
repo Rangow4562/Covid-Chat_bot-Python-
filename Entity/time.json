@@ -1,0 +1,155 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "time",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "1am",
+      "synonyms": [
+        "1am"
+      ]
+    },
+    {
+      "value": "2am",
+      "synonyms": [
+        "2am"
+      ]
+    },
+    {
+      "value": "3am",
+      "synonyms": [
+        "3am"
+      ]
+    },
+    {
+      "value": "4am",
+      "synonyms": [
+        "4am"
+      ]
+    },
+    {
+      "value": "5am",
+      "synonyms": [
+        "5am"
+      ]
+    },
+    {
+      "value": "6am",
+      "synonyms": [
+        "6am"
+      ]
+    },
+    {
+      "value": "7am",
+      "synonyms": [
+        "7am"
+      ]
+    },
+    {
+      "value": "8am",
+      "synonyms": [
+        "8am"
+      ]
+    },
+    {
+      "value": "9am",
+      "synonyms": [
+        "9am"
+      ]
+    },
+    {
+      "value": "10am",
+      "synonyms": [
+        "10am"
+      ]
+    },
+    {
+      "value": "11am",
+      "synonyms": [
+        "11am"
+      ]
+    },
+    {
+      "value": "12am",
+      "synonyms": [
+        "12am"
+      ]
+    },
+    {
+      "value": "1pm",
+      "synonyms": [
+        "1pm"
+      ]
+    },
+    {
+      "value": "2pm",
+      "synonyms": [
+        "2pm"
+      ]
+    },
+    {
+      "value": "3pm",
+      "synonyms": [
+        "3pm"
+      ]
+    },
+    {
+      "value": "4pm",
+      "synonyms": [
+        "4pm"
+      ]
+    },
+    {
+      "value": "5pm'",
+      "synonyms": [
+        "5pm'"
+      ]
+    },
+    {
+      "value": "6pm",
+      "synonyms": [
+        "6pm"
+      ]
+    },
+    {
+      "value": "7pm",
+      "synonyms": [
+        "7pm"
+      ]
+    },
+    {
+      "value": "8pm",
+      "synonyms": [
+        "8pm"
+      ]
+    },
+    {
+      "value": "9pm",
+      "synonyms": [
+        "9pm"
+      ]
+    },
+    {
+      "value": "10pm",
+      "synonyms": [
+        "10pm"
+      ]
+    },
+    {
+      "value": "11pm",
+      "synonyms": [
+        "11pm"
+      ]
+    },
+    {
+      "value": "12pm",
+      "synonyms": [
+        "12pm"
+      ]
+    }
+  ],
+  "id": "ee05e41b-5b54-4236-90ba-8f99849883d6",
+  "isOverridable": false
+}

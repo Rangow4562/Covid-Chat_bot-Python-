@@ -1,0 +1,56 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "outdoor_activities",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "bike",
+      "synonyms": [
+        "bike"
+      ]
+    },
+    {
+      "value": "ski",
+      "synonyms": [
+        "ski",
+        "skiing"
+      ]
+    },
+    {
+      "value": "jogging",
+      "synonyms": [
+        "jogging",
+        "run"
+      ]
+    },
+    {
+      "value": "walk dog",
+      "synonyms": [
+        "walk dog",
+        "dog walking"
+      ]
+    },
+    {
+      "value": "exercise",
+      "synonyms": [
+        "exercise"
+      ]
+    },
+    {
+      "value": "park",
+      "synonyms": [
+        "park"
+      ]
+    },
+    {
+      "value": "frisbee",
+      "synonyms": [
+        "frisbee"
+      ]
+    }
+  ],
+  "id": "6743acfc-5470-48b2-a2ac-f8a6131b8008",
+  "isOverridable": false
+}
