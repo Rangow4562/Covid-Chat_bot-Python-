@@ -1,0 +1,278 @@
+{
+  "id": "b05bbca8-a39e-4972-82ea-95c51e786220",
+  "name": "support.bye",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "satisfied",
+          "lifespan": 5
+        },
+        {
+          "name": "satisfaction",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Before you go, from \"very satisfied\" to \"not satisfied\" how would you rate the information you received today?"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {},
+                      "text": "Very satisfied",
+                      "link": ""
+                    },
+                    {
+                      "link": "",
+                      "text": "Not satisfied",
+                      "image": {}
+                    },
+                    {
+                      "image": {},
+                      "link": "",
+                      "text": "I prefer not to answer"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Before you go, from \"very satisfied\" to \"not satisfied\" how would you rate the information you received today?</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you. Good. Bye.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e367ce5-73ba-4d07-b008-9e0497961507",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, that's all I want to ask.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44bd8875-b253-4a85-a99e-faa6055abc53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, that's all.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1fd936db-9b1b-44e3-8308-e3096901e758",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "That's all the questions I have.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db42b711-fb25-41ff-b72a-f8ffdaaf9d02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "That's all for now.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92caff8e-26f3-4bf1-af58-7687d0f40241",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's all of my questions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c59d132e-2d90-41e0-9632-e5bbf202d00f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i don't have anything else to ask",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36fcfe9b-93c9-47fd-a554-2ce50b6580a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bcac7576-5b49-4669-aeaa-600b9bf866d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, that's all my questions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "daaa5f55-674c-4729-bd98-a7c53f1e2882",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Have a nice day.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5cf5ce3e-196c-4e8a-9795-354f5a2646e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bye. Bye.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca14f3d9-6ef7-4b32-af15-bcb718937555",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74fd0a8d-81b4-4f1b-9b53-c2dc2c3c7379",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "02c2dd08-f028-484d-afd3-a6a6eb9d69cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "by",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba9a03be-2b78-4937-bf6f-f4702b262d6d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Good. Bye.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ca86198-5571-4b84-a9bd-d53e1f766636",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Good bye!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "083f0888-f615-4d2d-bbbd-2afa50023ec4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

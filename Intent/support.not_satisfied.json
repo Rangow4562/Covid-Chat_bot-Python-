@@ -1,0 +1,143 @@
+{
+  "id": "2968c9ec-0c51-4927-b8ad-52393b98663f",
+  "name": "support.not_satisfied",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "Thank you for the feedback. Goodbye!"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for the feedback. Goodbye!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43d3e645-51f1-4aa9-b1d6-0f59b481c5d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5293606-7f9a-43a7-a0e6-f810328abefd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not have the information I need",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5e017ff-3e15-4cca-b4a3-f16c5b2bbe91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't have the information I need",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d4987df9-7a2f-488f-8780-d62b9b92eb35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "This was not helpful",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45f6fd11-5866-4545-9c11-7ab21a1d7a60",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am unhappy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "821651b4-5c9f-487b-ac51-6ca0daa1c19b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am not satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "495f3425-d89c-48cc-92c7-1b957813a005",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d2d133ae-5e84-493b-afa7-acfb543f872a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

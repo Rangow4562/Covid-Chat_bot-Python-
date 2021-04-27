@@ -1,0 +1,152 @@
+{
+  "id": "36b03878-fadd-492a-848f-76574bba507a",
+  "name": "support.bye-thank",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "thank"
+  ],
+  "contexts": [
+    "thank"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "satisfied",
+          "lifespan": 5
+        },
+        {
+          "name": "satisfaction",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Before you go, from \"very satisfied\" to \"not satisfied\" how would you rate the information you received today?</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Before you go, from \"very satisfied\" to \"not satisfied\" how would you rate the information you received today?"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "Very satisfied"
+                    },
+                    {
+                      "text": "Not satisfied",
+                      "link": "",
+                      "image": {}
+                    },
+                    {
+                      "text": "I prefer not to answer",
+                      "link": "",
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no that's it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5831b4c-ef8a-4788-9d9a-1c19efc03e67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nope that's it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e5b5076-f7d2-41b4-b196-bb0c0fa47023",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i'm done",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05a64a1f-b742-4d6a-b655-4dd1ae74a89a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no I'm done",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ac4860b8-d362-4416-92c6-81ef7f0e7868",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17a2c4c4-c6f5-4d9f-b029-01e39647b4f9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

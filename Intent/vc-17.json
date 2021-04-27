@@ -1,0 +1,89 @@
+{
+  "id": "74bd17cf-01ef-4e16-b20b-d9d2c4fd3b8a",
+  "name": "vc-17",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Any of the below mentioned ID with Photo may be\nproduced at the time of registration:\n• Aadhar Card\n• Driving License\n• Health Insurance Smart Card issued under the\n scheme of Ministry of Labour• Mahatma Gandhi\n National Rural Employment Guarantee Act\n (MGNREGA) Job Card\n• O\u001dcial identity cards issued to MPs/MLAs/MLCs\n• PAN Card\n• Passbooks issued by Bank/Post O\u001dce\n• Passport\n• Pension Document\n• Service Identity Card with photograph issued to\n employees by Central/ State Govt./ PSUs/Public\n Limited Companies\n• Voter ID\n• Smart card issued by RGI under NPR"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "  vaccination documents",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab2d6749-f98c-4154-bee9-3122e6867f3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccination documents",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a643827-b77c-4db4-b6b4-9a13741f06a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "documents for  vaccination",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0aad0d37-e29f-4a57-ab7c-036021311278",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What documents does one\n need for vaccination",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0f21541-2beb-4f27-8c7e-ebab3523cb58",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

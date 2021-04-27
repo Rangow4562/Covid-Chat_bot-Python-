@@ -1,0 +1,111 @@
+{
+  "id": "bc92acb6-12e7-4916-8b3f-97d52bced050",
+  "name": "vc-9",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "currency-name",
+          "dataType": "@sys.currency-name",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$currency-name",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Government health facilities will provide treatment free of\ncost in case vaccine causes any side e\u001eects. Most side\ne\u001eects are minor which may not require admission in a\nhospital facility"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "treatment is ",
+          "userDefined": false
+        },
+        {
+          "text": "free",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        },
+        {
+          "text": " of cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "312e3cc4-65e4-4809-aa0a-702320a01e30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "medical\n  treatment ",
+          "userDefined": false
+        },
+        {
+          "text": "free",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        },
+        {
+          "text": " of cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d7dcc15-c1c5-41c2-88b6-0dc67fc2f96d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "If vaccine causes any side\n effects will I get medical\n treatment free of cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f193fecd-e9f3-4268-a4ae-4570929892c8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

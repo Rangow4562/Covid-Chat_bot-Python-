@@ -1,0 +1,65 @@
+{
+  "id": "265fe608-703c-45a6-8dbd-52a9f89e813d",
+  "name": "vc-15",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "There is no choice in the initial phase for vaccines."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "choice of\n  the vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab49b753-ba59-43d6-b204-fd5d7f5677d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have a choice of\n the vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e56fa1d6-115f-4288-9f50-b8df9d8360f4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

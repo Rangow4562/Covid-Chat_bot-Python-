@@ -1,0 +1,65 @@
+{
+  "id": "3f181556-0dc7-42a4-9b05-a8d4788e15e5",
+  "name": "vc-10",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "As these are new vaccines and initially there is limited\nsupply at present, so to avoid inconvenience , vaccines will\nbe given first to the priority groups depending upon their\nrisk and vulnerability. Government is continuously\nmonitoring the availability of vaccines and decisions will\nbe taken at the appropriate time regarding vaccines to the\nrest of the population."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many vaccines are there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31dc642b-c969-471e-92cb-b8038e070acd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will there be enough vaccines\n for everyone",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a12dfd55-87b7-4282-b9ac-03d8c54b98b0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

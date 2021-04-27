@@ -1,0 +1,140 @@
+{
+  "id": "bc4da343-d27d-4a4a-a487-19c456ccba76",
+  "name": "vc-29",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "ordinal",
+          "dataType": "@sys.ordinal",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$ordinal",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "ordinal1",
+          "dataType": "@sys.ordinal",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$ordinal1",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The second dose should be taken within the prescribed\ntime or as early if it is missed."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "second",
+          "userDefined": false,
+          "alias": "ordinal",
+          "meta": "@sys.ordinal"
+        },
+        {
+          "text": " dose was not taken",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98a4fdf4-0942-4b5b-99a3-f4317a7ab957",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I forget to take the\n  ",
+          "userDefined": false
+        },
+        {
+          "text": "second",
+          "userDefined": false,
+          "alias": "ordinal",
+          "meta": "@sys.ordinal"
+        },
+        {
+          "text": " dose",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cee486b-62cd-4bc1-97dc-8c546b4e9523",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What if I forget to take the\n ",
+          "userDefined": false
+        },
+        {
+          "text": "second",
+          "userDefined": false,
+          "alias": "ordinal",
+          "meta": "@sys.ordinal"
+        },
+        {
+          "text": " dose? Should I take the\n ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "alias": "ordinal1",
+          "meta": "@sys.ordinal"
+        },
+        {
+          "text": " again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "317b4c19-2f80-4297-a207-1f871b7f71d7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

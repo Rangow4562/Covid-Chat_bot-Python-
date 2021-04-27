@@ -1,0 +1,228 @@
+{
+  "id": "f8b85fb5-c2f7-4024-b1c0-9a6dd03b524a",
+  "name": "support.thank",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "satisfied",
+          "lifespan": 5
+        },
+        {
+          "name": "satisfaction",
+          "lifespan": 5
+        },
+        {
+          "name": "thank",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You're welcome. Do you have any other questions?"
+          ]
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>You're welcome. Do you have any other questions?</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I see, thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "188ff30a-3acd-46fc-9fda-c75decc76c85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay. Thank you.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67b5aaa8-078c-41ba-b5ea-80e6fc5abf75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you.",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "deb1c5a3-9a28-4a35-946d-ae4ddb16d102",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's great information, thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e1ecf47-77cf-4c2f-8fc4-1af6e98a662e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you i really appreciate it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a01ace05-9259-45ed-9f72-d84fefb191f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok, thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5a98f2b-9cd3-4a07-9cd3-9b6d056bbf33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "got it, thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8e513b66-94f1-43ba-9884-91038c220c7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks for the help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe942401-3c91-47ec-9018-ca3a11a9960f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okay great, thank u",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be651e26-d6b6-4c22-9337-5add03695182",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks a ton",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc24e7f8-3e83-454b-8497-67c926bbee71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you very much",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24293470-5375-4261-a182-796cf1dc9b8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks a lot!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8cb0764-2d0b-48ba-bb17-91cd7e4b3029",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be9579b0-cb43-41a8-bc18-dad692cdf56e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9993ecb2-f2ae-43f1-ab38-d72974680813",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

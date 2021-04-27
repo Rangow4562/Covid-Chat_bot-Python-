@@ -1,0 +1,77 @@
+{
+  "id": "dd1a21d1-9edd-4909-8ae0-f4587e8951ab",
+  "name": "vc-32",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Pregnant and lactating women have not been part of\nCOVID-19 vaccine clinical trials, so they should not be\nvaccinated as no data on its safety for them is yet available ."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can pregnant take vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c05d277-153c-4797-8568-275a7621133e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pregnant can take vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9bc6cb6e-be02-422c-bd9b-f84becc5c4d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pregnant",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af0ca36a-4833-493e-a3d1-56f13c59ea03",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,91 @@
+{
+  "id": "01d54bc5-0247-4ed0-9bc5-a22f16b1049b",
+  "name": "vc-2",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The criteria for administration of COVID 19 vaccination has been\ndevised based on groups who are most at risk to exposure or\ndeveloping serious illnesses. The first prioritised group is\nhealthcare and frontline workers, followed by persons over 45\nyears of age and persons under 45 years with comorbid\nconditions"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "age for vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ebfa588-0a8b-4561-8134-4b54a94b6874",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "eligibility for vaccination",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93dacbdb-d198-4f9b-9d27-395c9c11b5a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "eligibility",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "87c34cd0-0f53-46f0-9df5-bf72876cdd58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the eligibility\n criteria to receive\n vaccination",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "284ac329-47e6-454e-8f02-6f4a128dd25d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

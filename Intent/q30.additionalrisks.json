@@ -1,0 +1,97 @@
+{
+  "id": "d43e0cdb-961d-468d-9b74-3b3537e9f3e0",
+  "name": "q30.additionalrisks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q30-additionalrisks"
+  ],
+  "contexts": [
+    "pronouns",
+    "q30-additionalrisks"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Do #pronouns.pronoun1 have any of the following: Asthma, Cancer, Cerebrovascular disease, Cystic fibrosis, Diabetes mellitus, Type 1, Hypertension or high blood pressure, Immunocompromised state (weakened immune system), Neurologic conditions,  Liver disease, Pregnancy, Pulmonary fibrosis, Smoking, Thalassemia</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Do #pronouns.pronoun1 have any of the following:",
+                  "text": [
+                    "Asthma",
+                    "Cancer",
+                    "Cerebrovascular disease",
+                    "Cystic fibrosis",
+                    "Diabetes mellitus, Type 1",
+                    "Hypertension or high blood pressure",
+                    "Immunocompromised state (weakened immune system)",
+                    "Neurologic conditions",
+                    "Liver disease",
+                    "Pregnancy",
+                    "Pulmonary fibrosis",
+                    "Smoking",
+                    "Thalassemia"
+                  ],
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "image": {},
+                      "link": ""
+                    },
+                    {
+                      "text": "No",
+                      "image": {},
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

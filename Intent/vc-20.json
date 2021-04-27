@@ -1,0 +1,89 @@
+{
+  "id": "3de11cd8-6076-4e77-bf75-e4fcfe8698fc",
+  "name": "vc-20",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-country",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-country",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Yes. The COVID 19 vaccine introduced in India will be as\ne\u001eective as any vaccine developed by other countries.\nVarious phases of clinical trials of vaccines are undertaken to\nensure its safety, immunogenicity and e\u001dcacy"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccine is  effective",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3eb891b-eaab-44e1-bf47-4e67aa28ec6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will the vaccine\n introduced in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " be as\n effective as the ones\n introduced in other countries",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce993882-2350-4dbf-ba4f-c7bff7be2824",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

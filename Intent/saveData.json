@@ -1,0 +1,302 @@
+{
+  "id": "057186bf-8235-43e1-95e2-1a70651a89be",
+  "name": "saveData",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "savedata"
+  ],
+  "contexts": [
+    "savedata"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please enter your name?"
+          ],
+          "value": "$name",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age",
+          "dataType": "@age",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Thanks $name .Please enter your 🔞 age ?"
+          ],
+          "value": "$age",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "mf",
+          "dataType": "@mf",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "OK $name . Please enter your 👦👩 Gender ?"
+          ],
+          "value": "$mf",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name .Please enter appointment 📅  date  in DD|MM|YYYY?"
+          ],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@time",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name .Please enter appointment 🕒time in AM|PM?"
+          ],
+          "value": "$time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "phone",
+          "dataType": "@sys.phone-number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name .Please enter your  📱 phone.no 🇮🇳 +91:"
+          ],
+          "value": "$phone",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "ad",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name  .Please enter your 🆔 ADHAR.no  ?"
+          ],
+          "value": "$ad",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "email",
+          "dataType": "@sys.email",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name . Please enter your 📧 email.id ?"
+          ],
+          "value": "$email",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Name: $name ",
+                    "Age: $age",
+                    "Gender: $mf ",
+                    "Date: $date",
+                    "Time: $time ",
+                    "Phone_no: $phone",
+                    "Adhar_no: $ad",
+                    "Email_id: $email ",
+                    "Your details are sent to your email id.We will contact you sooner",
+                    "Last Update: April 30, 2021"
+                  ],
+                  "type": "description",
+                  "title": "Hi.$name This is the COVID-19 Chatbot. Your Details is below?"
+                }
+              ],
+              [
+                {
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ranjith.gowda.rg26@gmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        }
+      ],
+      "count": 0,
+      "id": "1cfe639f-12dc-4429-894e-e03c6338650d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "456245624562",
+          "userDefined": true,
+          "alias": "ad",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "e21b2ac4-06b1-4f80-9127-36a267600a84",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "9008769944",
+          "userDefined": true,
+          "alias": "phone",
+          "meta": "@sys.phone-number"
+        }
+      ],
+      "count": 0,
+      "id": "fe899095-ba06-425f-b3c0-638d3204d43e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2 pm",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@time"
+        }
+      ],
+      "count": 0,
+      "id": "bda0c477-8f45-4720-a919-f02ee75c049c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Friday",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "3a214012-e0a8-481b-8dfd-3bf7b73e596f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "male",
+          "userDefined": true,
+          "alias": "mf",
+          "meta": "@mf"
+        }
+      ],
+      "count": 0,
+      "id": "c0e097f4-6fa0-4576-adba-a0b48ad995e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "18",
+          "userDefined": true,
+          "alias": "age",
+          "meta": "@age"
+        }
+      ],
+      "count": 0,
+      "id": "facaeee1-ebf1-482d-8f21-1bf5f7fc4260",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "peter",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "104478bb-7442-4fe1-ac86-eb26ea2c7f38",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "751d6244-e5f2-4dff-820b-750274093c07",
+  "name": "vc-37",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "No, the registered beneficiary will be allotted a health care\nfacility and they are requested to complete the schedule\nfrom the same facility to avoid mixing of vaccines."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I have the 2 vaccine doses in different cities/states",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8e4532e-0e2d-4ca7-9382-61f4b2468f90",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,422 @@
+{
+  "id": "96d9c5b3-1246-4c96-833b-1849dc0f41b9",
+  "name": "support.welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Hi. This is the <sub alias=\"covid 19\">COVID-19</sub> Virtual Agent. I can answer questions about COVID-19 based on publicly available information. I'm not a clinician and can't give medical advice, diagnosis or treatment.  If you are experiencing a life threatening emergency, call 911. How can I help? Try saying \"start screening\", or ask a question about COVID-19.</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I will try to provide some answers based on publicly available information. I'm not responsible for providing professional medical advice, diagnosis or treatment.",
+                    "If you are experiencing a life threatening emergency, please call 1075. For medical advice, please contact your healthcare provider.",
+                    "Last Update: April 20, 2021"
+                  ],
+                  "title": "Hi. This is the COVID-19 Chatbot. You can ask me questions related to COVID-19. How can I help?",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Start screening",
+                      "link": "",
+                      "image": {}
+                    },
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "What is COVID-19?"
+                    },
+                    {
+                      "text": "What are the symptoms?",
+                      "link": "",
+                      "image": {}
+                    },
+                    {
+                      "text": "How many confirmed cases are there in the India?",
+                      "link": "",
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid test screening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e8170cb-088a-4453-b979-021d1c46d69b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7d1b56a-45d6-4fb8-ae07-0eb7f659d5bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d799419-6c39-454a-a5c0-f85ab9684245",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I ask?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99ec8c59-6706-416c-83d2-34a8c28755b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is it that you help with?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7215c0c4-ba6d-4120-b7ff-122d8e750e5e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you help me with",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74f2966a-af07-41c5-9f45-e718a9a04a16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can you help me?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68a3be9d-be9a-4454-9b39-f06a6c07ae7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can i ask you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20e19213-8b31-464a-b0b7-2c31c3865a33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you help with?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f06323fd-9abe-402f-bb1b-1ad00f66213f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can I ask",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d48c7d01-9c9e-49ca-84d2-13a440e47fff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can you help me with?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "757b9c3c-0bf8-4b3d-a14d-33ec86e0dca6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can you help me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15c112de-4432-4d86-926a-b6df4b377a1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you help me with?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b063422-14f8-42a3-8ee3-02ba4fee88db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can I ask you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15fc9c34-aea9-4482-a753-98c7328fe1e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you answer?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "14257f84-317b-491d-baf3-3c4de4ce846f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can you do?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "389c1f27-18f0-4ce1-870c-cd0fb0ccc564",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbaf86fd-7cba-4843-9f3e-b087736589df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6e6e2d14-ece2-40d3-9b29-bb768be944f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca75af9e-0c2e-43d0-99b3-49e7310dd901",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "trying to say hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf7c3fe0-4681-4943-ac0b-1ba932b0245c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da771a53-97bd-43f3-b18c-1c63ee2557e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e9614a4-6aca-40ab-b6a4-2c3e1217bda9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ec3f4ce-f450-490a-95d6-048893385654",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d32a77eb-9902-4d2e-b8b9-2cca2aacd11a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e169bbc7-784c-49ae-b33c-8213342c76ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8dd1b2f1-ccfe-4447-a3b5-cd4d9f10227c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45bfdac3-a6ca-4d50-81aa-1a96762c16da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a54dfad2-c4cf-4c10-b654-159339af1ea9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

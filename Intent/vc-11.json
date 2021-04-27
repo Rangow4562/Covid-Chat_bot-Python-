@@ -1,0 +1,113 @@
+{
+  "id": "9ed368ea-1e2a-4f2b-835e-cc08361bd9a1",
+  "name": "vc-11",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The safety and e\u001dcacy data from clinical trials of vaccine\ncandidates are examined by the Drug regulator of our\ncountry before granting the license for the same. Hence, all\nthe COVID-19 vaccines that receive approval from the\nRegulator have safety, immunogenicity and e\u001dcacy."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are vaccines  are safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "397ffa7f-cedc-4457-8cc2-e4231638b0ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccine  are safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05788d07-b6af-4850-a54e-e5177673a9df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccines  are safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d1f4d58-41b9-4571-8761-8dc00aa30b36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "There are a ",
+          "userDefined": false
+        },
+        {
+          "text": "couple",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " of\n vaccines declared safe by\n the Government. Which one\n is best",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2babe223-45a2-4e0f-a0ca-5a1ed17e58b6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

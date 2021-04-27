@@ -1,0 +1,94 @@
+{
+  "id": "ce835a32-eedb-4aef-8f04-7daa93ab934b",
+  "name": "vc-49",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Hi. This is the CO-win Info. You can ask me questions related to vaccine. How can I help?",
+                  "type": "description",
+                  "text": [
+                    "Cowin is a web-based application developed by Gol. Every beneficiary has to be registered on it to be listed for vaccination. The registered beneficiary will get information on his/her registered mobile number through SMS regarding date, time and place of vaccination.",
+                    "If you are experiencing a life threatening emergency, please call 1075. For medical advice, please contact your healthcare provider.",
+                    "Last Update: April 20, 2021"
+                  ]
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://www.cowin.gov.in/home",
+                      "image": {},
+                      "text": "COwin"
+                    },
+                    {
+                      "text": "Cowin registration",
+                      "image": {},
+                      "link": "https://selfregistration.cowin.gov.in/"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "co-win",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb03f689-1def-468b-bd73-95d4fe7a0af4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is cowin",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce3ead8b-1420-472a-a289-0452b37e54b4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

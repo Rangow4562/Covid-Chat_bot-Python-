@@ -1,0 +1,156 @@
+{
+  "id": "1f512569-b480-46b6-920a-be1e16ca7e60",
+  "name": "support.no_participation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "satisfaction",
+          "lifespan": 5
+        },
+        {
+          "name": "very",
+          "lifespan": 5
+        },
+        {
+          "name": "satisfied",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "Ok, goodbye."
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ok, goodbye."
+          ]
+        }
+      ],
+      "resetContexts": true
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I prefer not to answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2db6917e-c29e-4e04-99be-d16b54cc6b59",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "In between",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81c415b2-754e-4e1b-973b-54132b6810e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to answer this question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95151f37-0c2f-4716-b691-4a4be661b4f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to answer this survey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b2029d4d-18c5-42ae-803a-58e47820c0e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't know",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63e196ec-da23-4a63-82c2-257dcc984eec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Neither",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "28e8112b-5ef1-4cf9-9d00-dd50db970da1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to participate",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "30fddba1-14eb-4bc3-bb5e-a77ea2079f0a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9dcd04e-9be9-4791-aaf2-1f22074131ae",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

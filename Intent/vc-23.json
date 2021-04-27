@@ -1,0 +1,101 @@
+{
+  "id": "e5cf7537-291d-4ab8-a6b8-2fc59c52332e",
+  "name": "vc-23",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-country",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-country",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "India runs one of the largest annual Immunization programme\nin the world, catering to the vaccination needs of more than\n26 million newborns and 29 million pregnant women. The\nprogramme mechanisms are being strengthened / geared up to\ne\u001eectively cater to the country’s large and diverse population"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where the vaccine is stored",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d203e95f-d8e9-4402-bf75-8254beb0c5c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how the vaccine is store",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "14436d8a-53f2-4960-bbc4-277306262034",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " have the capacity to\n store the vaccine at a\n temperature of 2 to <span class=\"selection\" selection-value=\"@sys.temperature\" selection-alias=\"temperature\" selection-user-defined=\"false\" style=\"background-color: rgb(210, 195, 234);\">8 degree\n Celsius</span> and transport them at\n required temperature",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9f6a0ab0-120c-4d82-b1fa-d800e0ccd36a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

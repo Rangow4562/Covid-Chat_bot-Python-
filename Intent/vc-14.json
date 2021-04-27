@@ -1,0 +1,77 @@
+{
+  "id": "54fc3f91-0444-44d6-acfd-8c46a43e654c",
+  "name": "vc-14",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "In the initial phase, COVID 19 vaccine will be provided to\nthe priority group- Health Care and Front-line workers by\nthe government."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "if they agree to\n  bear the cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eced9978-9d43-4c6c-8dce-229b7095b5d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccination drive for their\n  employees",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c738f955-76aa-48d8-88b7-d075b76824d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can corporates conduct a\n vaccination drive for their\n employees if they agree to\n bear the cost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b89a6c73-1836-476c-9fd4-7fd15e3c8038",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

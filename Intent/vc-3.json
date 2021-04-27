@@ -1,0 +1,101 @@
+{
+  "id": "560d0509-4b00-4346-aee9-22dbf639901e",
+  "name": "vc-3",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Once registered the eligible beneficiaries will be informed\nthrough their registered mobile number regarding the Health\nFacility where the vaccination will be provided and the\nscheduled date and time for the same. This will be done to\navoid any inconvenience in vaccination of beneficiaries."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when  will I been vaccinated",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fd1b16b-fd0a-442f-a211-68fa9d339a13",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "will I receive the vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "707880bc-b930-4649-82da-1a653200a60a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How will I receive\n the ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " Vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f53c008-0eb4-4fca-8924-1c2c9e971bd2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

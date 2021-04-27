@@ -1,0 +1,70 @@
+{
+  "id": "76a495e4-83d6-4cf7-891b-b769efa5e308",
+  "name": "save reg",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "savedata",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hello! 👋welcome to vaccine Scheduler. Please enter your 😀 name ?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccine appointment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4503f1d-ee0c-40fa-9446-6e1061210aff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccine registration",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0967ecc-2830-477c-982f-62cf298998a2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

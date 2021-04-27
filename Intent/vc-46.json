@@ -1,0 +1,53 @@
+{
+  "id": "175e47d6-771e-4058-ad23-31ffbf646848",
+  "name": "vc-46",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "All approved vaccines are safe and effective. The vaccine will\nbe given to the individual as per the availability of type of\nWiel ere! | aloe"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "If offered a choice of vaccines, which one should I take?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "473c61dc-f9da-4eb7-a1c0-07e6abf02dbb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "3dd0482f-ec35-4732-8931-c2e5712029e4",
+  "name": "support.satisfied",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "Thank you for the feedback. Goodbye!"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for the feedback. Goodbye!"
+          ]
+        }
+      ],
+      "resetContexts": true
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c3f0bb2-4ae1-4ef3-b19f-d4e0dbbaed97",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "very satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85f6ee40-881e-49d9-b54d-41325d76c0ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I got the information I needed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b68225c-ebf4-4bb2-9c9f-bfdd943fa121",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am happy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3ae4859-544b-4433-95ba-72a885c1d335",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c54feddf-5768-43df-bf1a-de7fdbb00822",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm satisfied",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c7cc619-a75d-488a-ac9f-3a7d12a11ac1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

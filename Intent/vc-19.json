@@ -1,0 +1,65 @@
+{
+  "id": "23294c46-3fec-457b-b3bc-7e08142c2eb7",
+  "name": "vc-19",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Vaccines are introduced in the country only after the\nregulatory bodies have cleared them based on its safety,\nimmunogenicity and e\u001dcacy."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaccine is safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a061fa9-98cd-4ad2-85df-dd047c25ace7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will the vaccine be safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cced77a0-31b2-46e8-94cd-489a82748d26",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

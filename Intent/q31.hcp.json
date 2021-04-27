@@ -1,0 +1,82 @@
+{
+  "id": "a30fd911-9112-4461-b475-55e4a8add086",
+  "name": "q31.hcp",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q31-hcp"
+  ],
+  "contexts": [
+    "pronouns",
+    "q31-hcp"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>In the last two weeks have #pronouns.pronoun1 worked or volunteered in a hospital, emergency room, clinic, medical office, ambulance service, first responder services, or any health care setting, or taken care of patients as a student as a part of #pronouns.pronoun2 work?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "In the last two weeks have #pronouns.pronoun1 worked or volunteered in a hospital, emergency room, clinic, medical office, ambulance service, first responder services, or any health care setting, or taken care of patients as a student as a part of #pronouns.pronoun2 work?"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "image": {},
+                      "link": ""
+                    },
+                    {
+                      "text": "No",
+                      "link": "",
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

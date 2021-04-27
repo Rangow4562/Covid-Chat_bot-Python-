@@ -1,0 +1,53 @@
+{
+  "id": "ea18f42e-e6f9-4c2c-b659-845a60c50425",
+  "name": "vc-35",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "COVID-19 vaccine will be introduced in a phased manner\nwith the first phase focusing on health care workers,\nfrontline workers and population at higher risk. The\nprioritization of groups is based on the disease incidence\nand prevailing pandemic situation. However, you may\ncontact the local health authorities if you think you fall in\nthe phase 1 category and have not been included."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My name is not in the priority list though i am above 50 with comorbidity how do I get my name included?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b8a3c67-f9b5-40a6-9004-f70f54f31629",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

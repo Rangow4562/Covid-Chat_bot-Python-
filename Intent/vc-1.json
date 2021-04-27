@@ -1,0 +1,65 @@
+{
+  "id": "c4041f2d-60de-4039-bf90-6660a7fb4bdf",
+  "name": "vc-1",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The Government has identified prioritized groups\ncomprising of those most at risk for receiving the COVID\n19 vaccine in the initial phase. The vaccine will be o\u001eered\nfirst to healthcare workers, frontline workers and\npopulation above 45 years of age, followed by population\nbelow 45 years of age with associated comorbidities\nbased on the evolving pandemic situation. It would be\nextended to the remaining population based on the\ndisease epidemiology and vaccine availability. The priority\ngroup of above 45 years is further subdivided into those\nabove 60 years of age and those between 45 to 60 years\nof age for the phasing of roll out based on pandemic\nsituation and vaccine availability."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": " Vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4731c423-76b7-4276-ae35-aba52ddf9c5b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When will I get\n the Vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16a4e9de-0d78-480c-9a4f-39c15661e6f3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

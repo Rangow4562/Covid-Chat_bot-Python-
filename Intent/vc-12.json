@@ -1,0 +1,101 @@
+{
+  "id": "a21e163f-ce75-4ad1-a31c-0271b3ae300c",
+  "name": "vc-12",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Yes, it is advisable to receive a complete schedule of\nCOVID vaccine irrespective of past history of infection\nwith COVID-19."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I still need\n   to get vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1e12e21-cb0e-42ce-bbe7-d5e3d0ad5c57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have\n  recovered now, do I still need\n  to get vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13649b33-2464-45e9-a081-dd8d926579b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "If I had ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " but have\n recovered now, do I still need\n to get vaccine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7936840-2e48-4ff6-ba13-7b9bfabe2cb3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,77 @@
+{
+  "id": "f6606de1-1689-4f15-a598-7b3ded360f56",
+  "name": "vc-13",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Even after receiving the COVID 19 vaccine, we must\ncontinue taking all precautions like use of face cover or\nmasks, hand sanitization and maintain physical distancing\n(6 feet or Do Gaj). These behaviours must be followed\nboth at the session site and in general"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "After vaccination, do\n  I still need to maintain social distance",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb76cf8c-304a-4971-9eed-91c0b01512ab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "After vaccination, do\n  I still need to wear a mask",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfe6a0b7-decb-4000-be17-ba3f3c0ac52d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "After vaccination, do\n I still need to wear a mask\n and maintain social distance",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d5e7fbf6-a7ef-4143-a7d4-a56f8a6ade40",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

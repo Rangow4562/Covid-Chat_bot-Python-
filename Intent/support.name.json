@@ -1,0 +1,167 @@
+{
+  "id": "454b871f-a6d8-40cb-8bf5-6f86ea9e008e",
+  "name": "support.name",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>This is the <sub alias=\"covid 19\">COVID-19</sub> Virtual Agent.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "This is the COVID-19 Virtual Agent."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's your name?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b087906-d9ff-47d1-b9da-190a399ac375",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are you a bot?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0729f241-d550-4b03-85d0-5dd3772e8fff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are you?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4a30aaf6-895e-4922-91ce-af261b4edf7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are you a boss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c295812a-3a8b-408f-94cb-e1af978fdf16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your name please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca26fc50-5e02-433d-98ef-d76d3037099c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can I call you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23dd6b86-b80b-4410-b9f6-81793868df9c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are you known as?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "64527f20-65e2-4e38-8d7e-6d9922bd1ce8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are you called?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75ea928f-ccc0-4b07-8aaa-3f5fd2cc24cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a name?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08eaa7b8-d312-4d71-8682-ef899145c4e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's your name",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7543ec28-6e1d-4354-8b39-8afc7b9128a3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

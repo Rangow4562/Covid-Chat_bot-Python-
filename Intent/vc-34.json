@@ -1,0 +1,65 @@
+{
+  "id": "89cea80b-9cdc-4d76-bd81-d3ce512964af",
+  "name": "vc-34",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The process is being developed and would be widely\npublished"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "senior citizen",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2fa4ba7f-5d4d-4074-947a-1c80943d4f48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "If | fall in the category of priority list by being a senior citizen or with a comorbid condition, how do I contact the appropriate vaccination authority?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "465b4cc0-f440-4d26-9a5a-70c03ae5d8e7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

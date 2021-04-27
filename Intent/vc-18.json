@@ -1,0 +1,125 @@
+{
+  "id": "3b93de1f-e045-41d5-8ce6-50827cdb871d",
+  "name": "vc-18",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We request you to wait at the vaccination centre for at\nleast half an hour after taking the COVID-19 vaccine.\nInform the nearest health authorities / ANM / ASHA in\ncase you feel any discomfort or uneasiness subsequently.\nRemember to continue following key COVID Appropriate\nBehaviours like wearing of mask, maintaining hand\nsanitization and physical distance (or 6 feet or Do Gaj)"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "prevention to be taken",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b40c8fe-868b-410b-a155-77f1532727e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "precaution to be taken",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae1ee3ab-a537-42e3-872b-e97a3bbed6de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "measures to be taken",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1edb5b0-ac7e-4d54-8f73-b791c2c2db16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "measures",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9fbfd7d-043f-4ba1-b358-f2ba6c7b88af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "precautions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02165af0-f697-493c-8e2d-51e0f401d316",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "prevention",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fc6e665-c901-4c70-a873-91fed350719d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any preventive\n measures and precautions\n that one needs to follow at\n the session site",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef7d94bb-0026-4dbd-af3e-dab55348b94b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
