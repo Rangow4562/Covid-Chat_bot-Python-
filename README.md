@@ -1,3 +1,6 @@
+Demo:
+http://covidsystems.xyz/  go here for demo
+
 PACKAGES:
    "firebase-admin": "^5.13.1",                                          
     "firebase-functions": "^2.0.2",
