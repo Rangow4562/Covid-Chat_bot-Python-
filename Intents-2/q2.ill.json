@@ -1,0 +1,82 @@
+{
+  "id": "d7e60d10-b6fe-4889-9c18-39f12d55ef00",
+  "name": "q2.ill",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q2-ill"
+  ],
+  "contexts": [
+    "pronouns",
+    "q2-ill"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Are #pronouns.pronoun1 ill?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Are #pronouns.pronoun1 ill?"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "image": {},
+                      "link": ""
+                    },
+                    {
+                      "text": "No",
+                      "image": {},
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

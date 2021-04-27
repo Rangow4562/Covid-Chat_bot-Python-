@@ -1,0 +1,121 @@
+{
+  "id": "9368e549-ad95-4e54-9e5f-3c35fd6fb281",
+  "name": "q.yes",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns"
+  ],
+  "contexts": [
+    "pronouns"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "👍🏽",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31e98454-a017-4d5d-9260-484f4578c6a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "y",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "97410171-5e94-4370-bcd1-0f7365ee337a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yeah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc9f3416-67ab-4687-a4ec-beaf205aa361",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okay",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8c4af746-25bd-4c3c-8a94-6777a21bab64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yup",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2cfb6c67-6b6f-4169-8a1a-a7eb7d802fc2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e572b6dc-e5f6-49e9-ba85-ff48ac692d24",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

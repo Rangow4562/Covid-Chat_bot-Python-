@@ -1,0 +1,82 @@
+{
+  "id": "1e2856af-483a-460e-af9a-8ad7c3b23259",
+  "name": "q17.cough",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q17-cough"
+  ],
+  "contexts": [
+    "pronouns",
+    "q17-cough"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Do #pronouns.pronoun1 have a cough?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Do #pronouns.pronoun1 have a cough?",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "image": {},
+                      "link": ""
+                    },
+                    {
+                      "image": {},
+                      "text": "No",
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,261 @@
+{
+  "id": "a40626c6-50a4-4c54-908b-06348ed41b6d",
+  "name": "coronavirus.weather",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>It is not yet known whether weather and temperature affect the spread of <sub alias=\"covid 19\">COVID-19</sub>. Some other viruses, like those that cause the common cold and flu, spread more during cold weather months but it's still possible to get sick with these viruses at other times. There is much more to learn about the transmissibility, severity, and other features associated with <sub alias=\"covid 19\">COVID-19</sub>.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It is not yet known whether weather and temperature affect the spread of COVID-19. Some other viruses, like those that cause the common cold and flu, spread more during cold weather months but it's still possible to get sick with these viruses at other times. There is much more to learn about the transmissibility, severity, and other features associated with COVID-19."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "COVID-WIN",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "518c0744-3265-43ea-a2d3-e8814b3695fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Well the warm weather stop the disease.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "137450ae-5d21-46d1-89ee-58ab67c7ec96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the temperature have an effect on the virus spread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e83dfe1f-8dcf-429b-8bb3-c9905b9abea4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will a warm weather start stop covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "acafb31f-d88e-48fe-a373-113d2f2c2107",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "will corona dissapear when it gets warmer outside",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35156e3b-fe2e-4a52-9662-0b7c67fd8376",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can weather change?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1af63f2f-78fe-456b-91d5-95146e836df0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will warm weather stop the outbreak?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54b17fab-cb1a-4579-ad04-ec69df5a3476",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does weather have an impact on the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "7848bba8-5b6c-471c-a175-231e81864ce1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is it easier to spread if the climate is cold",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce9693ab-4d12-4bef-b6c3-f7ed76816cf5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does the weather have an impact on the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c9233ef-7b18-4b2f-b409-0399f090324e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can hot weather prevent the virus to spread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e94ad7a-260c-45b3-bf61-5e97b8e084c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can weather stop the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7800102c-0904-42d0-adf7-a4ab483ede33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is covid-19 seasonal?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8db76c07-06c2-42fc-b47a-597e6b718d21",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is covid-",
+          "userDefined": false
+        },
+        {
+          "text": "19",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " seasonal?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02002b24-c4bd-4203-ad47-101ed8756eab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a certain temperature in which the virus dies?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "142e5071-06aa-4095-b333-eff59415b36e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does the virus die if you cool it or heat it up?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbeef6df-ae32-4d31-a44a-186b6670b718",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will warm weather stop the outbreak of COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16a6ab56-6c55-46b4-8c43-ce6bde75401d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

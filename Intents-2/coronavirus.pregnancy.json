@@ -1,0 +1,169 @@
+{
+  "id": "de1c1d6c-3bf6-4964-aa87-021ffdd49412",
+  "name": "coronavirus.pregnancy",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>According to the CDC, we do not know if pregnant people have a greater chance of getting sick from <sub alias=\"covid 19\">COVID-19</sub> than the general public nor whether they are more likely to have serious illness as a result. Pregnant people seem to have the same risk as adults who are not pregnant. Mother-to-child transmission of coronavirus during pregnancy is unlikely, but after birth a newborn is susceptible to person-to-person spread and a very small number of babies have tested positive for the virus shortly after birth.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "According to the CDC, we do not know if pregnant people have a greater chance of getting sick from COVID-19 than the general public nor whether they are more likely to have serious illness as a result. Pregnant people seem to have the same risk as adults who are not pregnant. Mother-to-child transmission of coronavirus during pregnancy is unlikely, but after birth a newborn is susceptible to person-to-person spread and a very small number of babies have tested positive for the virus shortly after birth."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I pass Covid to my fetus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da4572fd-c71d-425d-a06d-96c7252a462b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can Corona virus be come an issue for pregnant women?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1852755d-ef28-4443-b7d8-d72f589c121b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "10 caronavirus cause issues for pregnant woman",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66f4e910-81eb-4b6b-a34d-56693b0b76b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do i need to take extra precaution during pregnancy?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5ce046e-f741-4da5-9161-f59db161f58d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will coronavirus harm the fetus in pregnant women?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03bac039-8e92-46b9-b4e4-58a857e8c794",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can COVID-19 be passed from a pregnant woman to the fetus or newborn?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3d60c16-b230-4c18-b332-54543d622026",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am pregnant can it effect my child",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d6027a00-5663-4202-ae93-9e73cce66246",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What happens if you are pregnant and is getting the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f21aa949-efe7-423f-9b8b-d2c5690b07a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any problems if I'm pregnant?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c91cff1-c7b9-4ae8-9e2b-077c18cf81ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can COVID-19 cause problems for a pregnancy?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b0416f1-a13c-4b52-b490-3db91a8bd22f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

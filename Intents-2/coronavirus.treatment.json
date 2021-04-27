@@ -1,0 +1,705 @@
+{
+  "id": "1382c155-82e2-48ca-8c7c-89f2ceb47736",
+  "name": "coronavirus.treatment",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>There is no specific antiviral treatment recommended for COVID-19. People, particularly those with serious illness, may need to be hospitalized so that they can receive life-saving treatment for complications. Most patients recover thanks to such care.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "There is no specific antiviral treatment recommended for COVID-19. People, particularly those with serious illness, may need to be hospitalized so that they can receive life-saving treatment for complications. Most patients recover thanks to such care."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I take antibiotics?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8d8ef57-41a6-4d50-b4ee-f3249d0a0338",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will antibiotics help with covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8a04299-5026-4408-bbea-3c2517d2fdec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do you treat covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "efa67e5a-732d-4d23-896d-c5d465645989",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a treatment yet?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de6b5103-e549-486d-ae8b-20dfbaa0ed9d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the treatment for covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6aedc836-12eb-4567-9996-d85d796aefa0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any treatments available?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "34806460-e536-496f-a744-795f0c9a8342",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "treatments for ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "dd428ae3-be4a-416b-a425-bc384bc06e87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the solution for covid?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a2d0a1d-fce0-4c6d-835d-76d21cb98639",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can we remove covid?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab56f62c-f102-4696-8900-bd3ed6e4a3b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the solution to coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "497fad87-45d2-4d41-b21d-cf8327b66466",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a cure for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24b7cf19-8bcd-4c36-8862-dd11d96c3a55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there any cure yet for the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87dc4645-94f8-45ab-b942-9bb8e6b53dc8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you be treated for corona",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d727b471-8af3-4fb6-94a8-80b4527823d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what medication should i take",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1382499-f5ee-480a-9dbf-57b3a0c88fa7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I take medicine?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e414c75e-a660-432a-b895-796ba1ee1d29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what medicines help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b73e2189-3239-41aa-8ade-31e13ca8f4f7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what remedies are available?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab149d41-a601-4c95-9a5c-3d39cca7a898",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there a cure?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "277445af-a6c1-4ac1-b44a-2f6823972e8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can i get treated for covid 19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7ef94014-e1f4-4cd3-852c-238b5556d107",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what if I get sick with ",
+          "userDefined": false
+        },
+        {
+          "text": "coronovirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "8f339e2c-c3bb-44ba-82cc-2575456a6b78",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I do if I have ",
+          "userDefined": false
+        },
+        {
+          "text": "corono virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "1d0c9ea2-c6b6-4e11-a54c-cb0b6fdc156a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I do if I have ",
+          "userDefined": false
+        },
+        {
+          "text": "corona virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "95f14026-fe24-408e-9ff9-acfb4c204de0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I do if I have ",
+          "userDefined": false
+        },
+        {
+          "text": "coronovirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "c2cf020b-1d22-4daf-8b11-54977c85631c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a treatment?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "252f6075-8c34-479b-b6cf-ac1ed0d75335",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there an antidote yet?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "416f608e-8094-4c23-8cee-390229b26664",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what treatments are available to treat ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d870d60-b112-443d-9f1e-8601524506f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there an antiviral treatment for COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b5c6d7c-8a11-4c2c-b9cc-9965862f245e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are there any medicines or therapies that can cure ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f8f1ec1-e54e-459b-a50d-3273eaa394b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are antibiotics effective in preventing or treating the covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5dcf39f7-8f8f-442d-bc97-1b02138eb018",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "existing drugs in ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " fight",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b47cc847-506b-453f-a909-9b117cf7a950",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "medical solutions to the coronavirus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ecdec1d8-c94e-4a62-a395-0005f3d581b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does the US have effective treatment for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3bcebbc-d2c7-447d-8fe9-6a8eb0b0e886",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "drugs to treat infection",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "648d3272-0d8d-4cbd-94fd-f7df0af02621",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do we have drugs for treating this new disease?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "071eeb27-9819-4555-9187-39179b9ec7d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the most effective medicine to treat ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6cda407b-2e14-4bce-907e-32807698c946",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can we use antibiotics to treat ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75ed7356-d0b3-4f08-8c5d-9aedcb548152",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can people be cured if they caught ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e99844c-e417-496b-9a07-cceaaba6d0a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a medicine to treat this virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc008b7f-dcf9-4940-aea1-28d19d657864",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there a cure for the new ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19e67436-2503-45d1-ac85-a5677f62a4f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " be treated?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "507b29dd-ff4f-4730-b97f-8b525efae013",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do we have treatment for covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d390e232-fb0f-4a6d-bca5-89447b873472",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a treatment for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1696df13-4430-4c85-8810-c1d4842fc246",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

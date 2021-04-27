@@ -1,0 +1,127 @@
+{
+  "id": "34fd5081-0f2e-4efb-a20b-ec7ca6de503b",
+  "name": "new annocement",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Bengaluru: Amid a massive surge in COVID-19 cases in Karnataka, the BS Yediyurappa government on Monday decided to impose a 14-day lockdown across the state starting Tuesday evening.",
+                    "While the Karnataka CM did not call the measure a lockdown while announcing the move before the media, strict curbs that have been announced are akin to lockdown restrictions.",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "type": "description",
+                  "title": "Karnataka lockdown: 14-day 'close down' announced from 9 pm Tuesday as COVID spreads at ‘unimaginable speed’"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://www.timesnownews.com/india/article/14-day-lockdown-in-karnataka-from-tuesday-evening-to-curb-covid-19-cases/749621",
+                      "text": "More News",
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "annocement",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b1413d5a-adaf-4d3a-9a96-61ec14b6c1ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "karanatak",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " news",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bad393a2-e1d7-4595-ac3e-8f80b28516cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " karanataka annocement",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6e309a3-9f84-4fb4-87f6-41b90cad14bf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

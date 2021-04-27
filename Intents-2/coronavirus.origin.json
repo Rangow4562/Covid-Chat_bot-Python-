@@ -1,0 +1,567 @@
+{
+  "id": "4f1d458d-5935-409b-b4e2-724fa8763b84",
+  "name": "coronavirus.origin",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and may different species of animals, including camels, cattle, cats, and bats.  Rarely, animal coronaviruses can infect people and then spread between people. This occurred with MERS-CoV and SARS-CoV, and now with the virus that causes COVID-19. The SARS-CoV-2 virus is a betacoronavirus, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir. However, the exact source of this virus is unknown.\n\nMore information about the source and spread of COVID-19 is available on the CDC website."
+          ]
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and may different species of animals, including camels, cattle, cats, and bats.  Rarely, animal coronaviruses can infect people and then spread between people. This occurred with MERS-CoV and SARS-CoV, and now with the virus that causes COVID-19. The SARS-CoV-2 virus is a betacoronavirus, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir. However, the exact source of this virus is unknown.  More information about the source and spread of COVID-19 is available on the CDC website.</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the source of the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where was ",
+          "userDefined": false
+        },
+        {
+          "text": "covid",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " detected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "42c77865-f87a-4232-b515-14f32dae36d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where was ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " detected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22314797-705f-400d-97d0-d3db3f19ac2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where was ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " detected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc66b91e-4f30-428f-a3da-4eef0976ea27",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How did it start",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73cd197c-8b6d-4bcb-90c9-277422fbf087",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is the virus ",
+          "userDefined": false
+        },
+        {
+          "text": "1st",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " found?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a558445-2176-48f5-aeb3-b34f3d3722e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where does the ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": true,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " come from?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b39a319d-bed4-4216-8fe9-2aa3e4f5d158",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where did ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " start",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8892a912-9a9c-4dfe-829a-6eec3c9aac24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how did the ",
+          "userDefined": false
+        },
+        {
+          "text": "virus",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " start",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "09bc8e6a-743c-4d62-8fbf-8035e6994e4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where did ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": true,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " start",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c89a7045-bff3-4d67-a003-bfbeb5b44284",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where does the virus originally come from",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4fb941d-2def-4176-a83e-bc201d990b9e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is the corona virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "560ddc3f-db85-46ce-b4e2-898c95e337ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is the coronavirus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa7571a6-6019-41eb-87b2-9b5a9ce2fd8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " from?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c48037d-2747-42b0-9340-53ddbf50636c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " or originated in ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38bb7ae9-8715-4ef1-a610-e41d49de8b17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " from ",
+          "userDefined": false
+        },
+        {
+          "text": "China",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "401a06b1-8829-4f07-86e6-e6dfd6c910e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wuhan",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "ba9690e4-619c-499e-a290-f3a05237fdbb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where does ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " occur?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8a51e3d-9d24-48cc-a514-c14730d15743",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " found?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9ddaa97-c765-436d-86e8-c17464b95c82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " originated?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "12a92568-a93c-4503-b9b1-1ff063d3e145",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do we know about the ",
+          "userDefined": false
+        },
+        {
+          "text": "virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "'s origin?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc068557-ead8-4c7f-8f8c-6e3c4583d7d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is the ",
+          "userDefined": false
+        },
+        {
+          "text": "virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "first",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " detected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af99ab49-2f54-4dbb-a889-2830f6cb4009",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

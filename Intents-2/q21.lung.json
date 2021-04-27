@@ -1,0 +1,82 @@
+{
+  "id": "19fe8912-9277-4835-b251-f24f1c9dcb58",
+  "name": "q21.lung",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "q21-lung",
+    "pronouns"
+  ],
+  "contexts": [
+    "q21-lung",
+    "pronouns"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Do #pronouns.pronoun1 have COPD (chronic obstructive pulmonary disease)?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Do #pronouns.pronoun1 have COPD (chronic obstructive pulmonary disease)?"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "image": {},
+                      "link": "",
+                      "text": "Yes"
+                    },
+                    {
+                      "link": "",
+                      "text": "No",
+                      "image": {}
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

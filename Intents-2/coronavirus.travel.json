@@ -1,0 +1,468 @@
+{
+  "id": "3bacca5d-dc2c-430a-97bd-16bd5e91afb6",
+  "name": "coronavirus.travel",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-country",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-country",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>The guidelines for travel are changing often. Check the Center for Disease Control and Prevention's website for travel notices before planning travel.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The guidelines for travel are changing often. Check the Center for Disease Control and Prevention's website for travel notices before planning travel."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still travel to ",
+          "userDefined": false
+        },
+        {
+          "text": "Iran",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d4e2e3e-2172-4010-abea-b8de2e5c79f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still travel to ",
+          "userDefined": false
+        },
+        {
+          "text": "South Korea",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d82e0b0a-b526-4c16-8eac-ee2380c1624e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I not travel during a disease outbreak",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d3820946-8109-4d5f-a0d9-4084e8f2ae62",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I travel during it up break?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fff4f8a5-9170-4c25-b315-883dfd1e5cef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which countries have travel bans for covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de6a0043-4266-4a67-8a5d-b529b144ec66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I travel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5370841a-04a1-475f-8008-9addf9c4aa96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when can i TRAVEL AGAIN",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6cf4bd61-4125-4c45-9ed6-33fd124642e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need to go to ",
+          "userDefined": false
+        },
+        {
+          "text": "spain",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " can I travel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc502ab9-ff8a-4d77-a13d-3016d93933e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I travel to?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a9dc439-2f08-4c7e-82d0-8965f9c0264b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have the fly",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f10c4a8a-2dc8-4777-9d16-118166614b5c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go back to Kuala Lumpur now?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2b6ec97-7314-4319-a6f9-790ca5234f95",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i visit Kuala Lumpur?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25bee2a2-946f-4c8d-bd73-a5d9f25b9d9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it safe to travel?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9733febb-d5b9-48b8-b085-cd0caa8a1f7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can i travel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0a6a79c-ba9c-4896-989f-51bf58d63ce4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what travel restrictions are in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc2d6a3a-e447-470a-a02f-105fc789862e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it ok to travel?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8886248b-b1a9-40f3-a4c7-623935967276",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I travel within the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bd4fd099-0758-43ed-9c7f-a1ac14c08c81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, but what if I need to travel internationally, what do I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caab9323-c178-40c8-84b7-66c19ce1aea3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still fly home to Hawaii from San Francisco?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6d22514f-0ee6-4849-91d4-f9eefaaa947e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still fly home to Hawaii?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "bfd86e7e-9b63-4326-8c80-b3d7031f6b08",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "It it still safe to fly to ",
+          "userDefined": false
+        },
+        {
+          "text": "UK",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7fa9bf24-e2cb-4c8c-9523-1c0be9e49a3e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I travel to ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " right now?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8947c20a-1ddc-4026-b5fd-20b5b85c853c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how about traveling restrictions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b93ad30-4955-4caa-a05c-9cc40c053ebf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have a trip planned",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0dac595a-4ad6-452a-aa67-c165f43a0334",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what if I need to travel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "596e94f5-f265-49b5-aebe-1c79244dcd54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it safe to travel during ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " outbreak?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1350df39-a7e6-4733-b52c-74e4c7206700",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still travel?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59ea0ffb-042d-4a46-aed0-726b3ab6df0f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

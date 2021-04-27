@@ -1,0 +1,88 @@
+{
+  "id": "08f9ec1c-4642-4902-bec0-c2d06ae91d54",
+  "name": "OXYGEN REPORT INDIA",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "ndia will likely cross a total of 200,000 reported deaths on account of the coronavirus disease on Tuesday. In the absence of standardised death data — the number of people who can be expected to die in a region in a certain length of time; and ideally, this should be a long period average that takes into account various population metrics — there is no way to accurately arrive at a so-called excess death number for the entire country.",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "title": "Covid-19: What you need to know today"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://www.hindustantimes.com/india-news/covid19-what-you-need-to-know-today-101619478174078.html",
+                      "text": "More News",
+                      "image": {}
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "oxygen report india",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6202b218-3611-4059-bbad-f0d10097ba94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "oxygen news",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61b195cf-2757-49ce-bf7e-a5a2e7599c4d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

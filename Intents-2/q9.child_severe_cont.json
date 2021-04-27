@@ -1,0 +1,82 @@
+{
+  "id": "32822af3-d379-485e-84f3-8043fbf3f780",
+  "name": "q9.child_severe_cont",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q9-child_severe_cont"
+  ],
+  "contexts": [
+    "pronouns",
+    "q9-child_severe_cont"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Does the child appear dehydrated? Signs of dehydration include not urinating for 8 hours or more, dry mouth, and no tears when crying.</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Does the child appear dehydrated? Signs of dehydration include not urinating for 8 hours or more, dry mouth, and no tears when crying.",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "image": {},
+                      "link": "",
+                      "text": "Yes"
+                    },
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "77e60f83-009b-469a-9a99-ec200e74e407",
+  "name": "q4.child",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q4-child"
+  ],
+  "contexts": [
+    "pronouns",
+    "q4-child"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Are they under 5 years old?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Are they under 5 years old?"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "Yes"
+                    },
+                    {
+                      "image": {},
+                      "text": "No",
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

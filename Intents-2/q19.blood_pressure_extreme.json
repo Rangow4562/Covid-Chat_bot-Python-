@@ -1,0 +1,82 @@
+{
+  "id": "c7824b4a-8039-4d2f-9d3e-83c73b87f388",
+  "name": "q19.blood_pressure_extreme",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q19-blood_pressure_extreme"
+  ],
+  "contexts": [
+    "pronouns",
+    "q19-blood_pressure_extreme"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Do #pronouns.pronoun1 have symptoms of low blood pressure? Signs of low blood pressure can include cold, pale, or clammy skin; or feeling so light-headed and so weak that #pronouns.pronoun1 are not able to stand.</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Do #pronouns.pronoun1 have symptoms of low blood pressure? Signs of low blood pressure can include cold, pale, or clammy skin; or feeling so light-headed and so weak that #pronouns.pronoun1 are not able to stand."
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {},
+                      "link": "",
+                      "text": "Yes"
+                    },
+                    {
+                      "link": "",
+                      "text": "No",
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

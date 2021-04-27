@@ -1,0 +1,129 @@
+{
+  "id": "31e24e4b-a46b-46a2-9bae-248bdccc8757",
+  "name": "coronavirus.test_kind",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>There are actually many tests being used to diagnose COVID-19 that the U.S. Food & Drug Administration (FDA) has authorized for use during the current emergency. All of these viral tests identify the virus in samples from the respiratory system, such as from nasal or nasopharyngeal swabs. Some tests are conducted at the testing site you visit, and results are available to you within minutes. Other tests must be sent to a laboratory to analyze, a process that takes 1-2 days once the lab receives your samples. Two tests allow you to collect your own sample at home (either a nasal swab or a saliva sample) but you will still need to send the sample to a lab for processing. Locations and types of testing sites vary depending on where you live. Check with your testing site to learn which test it uses. You can find a patient information sheet about each test on the FDA website.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "There are actually many tests being used to diagnose COVID-19 that the U.S. Food & Drug Administration (FDA) has authorized for use during the current emergency. All of these viral tests identify the virus in samples from the respiratory system, such as from nasal or nasopharyngeal swabs. Some tests are conducted at the testing site you visit, and results are available to you within minutes. Other tests must be sent to a laboratory to analyze, a process that takes 1-2 days once the lab receives your samples. Two tests allow you to collect your own sample at home (either a nasal swab or a saliva sample) but you will still need to send the sample to a lab for processing.\nLocations and types of testing sites vary depending on where you live. Check with your testing site to learn which test it uses. You can find a patient information sheet about each test on the FDA website."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What kind of test do I need to get checked for ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What test diagnoses ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What kind of test is being used to diagnose if I have ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "2bdba8bc-5fc0-41f1-99e8-9dce319af80d",
+  "name": "q.no",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns"
+  ],
+  "contexts": [
+    "pronouns"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "they do not",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "28794928-6e7b-4c87-b591-d21837c1f8d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90dcb280-05ef-406a-b03d-9bbcb273be6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "they don't",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99e31da8-1099-4674-9940-897a3396dbbf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1844cf33-a38d-49c9-ab26-7d69e3289649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nope",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "b2b15732-de45-4aae-b6c1-fd105bc7144c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d1dbbf6-7309-420d-8c3e-478722ff0d4b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

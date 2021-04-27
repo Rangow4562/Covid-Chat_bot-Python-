@@ -1,0 +1,403 @@
+{
+  "id": "16b2bfba-f988-4c17-abc2-d2141b5ee2bc",
+  "name": "coronavirus.risk_severity",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>COVID-19 is a new disease and there is limited information regarding risk factors for severe disease. Based on currently available information and clinical expertise, older adults and people with underlying medical conditions are at higher risk for severe illness from COVID-19..</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "COVID-19 is a new disease and there is limited information regarding risk factors for severe disease. Based on currently available information and clinical expertise, older adults and people with underlying medical conditions are at higher risk for severe illness from COVID-19."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How dangerous is ",
+          "userDefined": false
+        },
+        {
+          "text": "Covid",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "07272115-0b73-4f1d-a177-89408ef192e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Who is most at risk?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be6f518f-3b3e-4e2c-9fa8-386b179d0f40",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Who is most at risk for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75cca49c-2d7e-4272-8329-b941a58e07f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " more contagious than normal flu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48aad45e-35a9-477a-a2df-54812d45d322",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "am I at risk if i am 46?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "377c06ec-f618-4c94-ae24-9f8518276fba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who is most vulnerable?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5369253-a567-46a0-af4f-3e76566631f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does a high potassium diet reduce risk of catching the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "795ecf81-7c8a-4eaf-a75a-1b98f74df389",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can young people die of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f724bda8-7131-461f-82b5-a2567b31f93a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are my odds of catching ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "72c5c2ba-62fd-4bde-a6ab-b12640ac9d11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long does it take to recover?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7efe8bd7-c8e1-4fa4-9ab9-7e4a9e880f8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how dangerous is ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "47757fc9-33f2-487f-9bee-d4c2a8f2f395",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how dangerous is it actually",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c575898-335d-4c78-bf30-c81ef05b48a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who are the people at higher risk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "708c925b-7a23-40a7-a580-2783c9e4befb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what age groups does the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " affect?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5ed8d21-b776-49ff-bb95-3135ed583f3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why are elderly more at risk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92488851-1a98-42fd-b46b-932a1ef5585d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what people are at higher risk?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ed37a86-1bfc-429e-80d9-5b61c09d7407",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Who is at risk?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea616adb-063f-496c-9f21-7c73422e4d5b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "am I at risk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8dfbdfc1-e224-4a5b-88a7-30495405f351",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i die?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "761c946a-a303-4948-a92d-e9de8a393dd8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " deadly?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7cfb476d-726a-4984-b58b-25195d762fb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are the symptoms in children different than in adults?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e0fdc35-dfbb-4f44-8c29-2bf6d9390594",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How severe is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea9c1ac5-eec1-4ccd-a4a3-4f55b84d344f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

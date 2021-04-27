@@ -1,0 +1,92 @@
+{
+  "id": "abb63d20-8b7e-4f54-b5fc-38632aacc946",
+  "name": "Haveri",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-state",
+          "dataType": "@sys.geo-state",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-state",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "District:Haveri",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "title": "Hi. This is the COVID-19 Chatbot.Here is your location?",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://goo.gl/maps/CF2Vat9n1v1dLUVa8",
+                      "image": {},
+                      "text": "📍 District Hospital"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Haveri",
+          "userDefined": true,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        }
+      ],
+      "count": 0,
+      "id": "e706cfdd-4fb4-4fab-bd33-0c2569a58927",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

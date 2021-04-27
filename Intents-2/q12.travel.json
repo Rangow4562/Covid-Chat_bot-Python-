@@ -1,0 +1,82 @@
+{
+  "id": "a6602c5d-0458-47b7-8ea9-29f93abee770",
+  "name": "q12.travel",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q12-travel"
+  ],
+  "contexts": [
+    "pronouns",
+    "q12-travel"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>In the two weeks before #pronouns.pronoun1 felt sick, did #pronouns.pronoun1 live in or visit a place where COVID-19 is spreading?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "In the two weeks before #pronouns.pronoun1 felt sick, did #pronouns.pronoun1 live in or visit a place where COVID-19 is spreading?"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "",
+                      "text": "Yes",
+                      "image": {}
+                    },
+                    {
+                      "text": "No",
+                      "image": {},
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

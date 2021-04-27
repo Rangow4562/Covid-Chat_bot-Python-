@@ -1,0 +1,224 @@
+{
+  "id": "99d97a86-c3bb-434e-b55e-398d8c52df15",
+  "name": "q1.pronouns_they",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "q1-pronouns"
+  ],
+  "contexts": [
+    "q1-pronouns"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "q2-ill",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak></speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my child",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "42e82bc4-b82d-4444-87d7-92ced389b161",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my daughter",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17493d90-8c88-4f64-9614-b651b805a741",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my son",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3fef17d-8134-43eb-8761-3853569b7d42",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my parent",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e14f2cae-a325-438f-8ff9-28a4efaca5dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my dad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02ec5ba7-a558-458c-b7d8-07841fa6f0c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my mom",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99f83642-78f5-45c3-bca0-d7696d1d2dcf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my wife",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fb133da-20d3-4a39-9f47-41a6bf139c01",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my husband",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d6d829f-9bc5-4c58-8e9b-149c6678bba8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my partner",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04acceec-d1c5-4263-935c-0642d212c622",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my friend",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75333dc3-9841-46cb-b8d2-2dd77a5bf23e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "them",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a170f88-b91a-4ad8-ac94-04d5ce805a58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b032d93-d36a-4cc0-9e1b-abbfb030e5f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "somebody else",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8d51b16-2c3a-45d9-af3d-57a280330f49",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "someone else",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7a23808-f5e9-41d9-b62f-b921ddb03570",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

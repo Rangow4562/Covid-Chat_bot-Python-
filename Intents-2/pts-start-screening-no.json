@@ -1,0 +1,108 @@
+{
+  "id": "3b5e05a7-eda8-439a-ad9e-b979c1b07853",
+  "name": "pts-start-screening-no",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "start-screener"
+  ],
+  "contexts": [
+    "start-screener"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "start-screener",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Hi.This is the<sub alias=\"covid 19\">COVID-19</sub>  Virtual Agent. You can ask me questions related to COVID-19. How can I help? I will try to provide some answers based on publicly available information. I'm not responsible for providing professional medical advice, diagnosis or treatment. If you are experiencing a life threatening emergency, please call 911. For medical advice, please contact your healthcare provider.</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Hi.This is the COVID-19 Chatbot. You can ask me questions related to COVID-19. How can I help?",
+                  "text": [
+                    "I will try to provide some answers based on publicly available information. I'm not responsible for providing professional medical advice, diagnosis or treatment.",
+                    "If you are experiencing a life threatening emergency, please call 1075. For medical advice, please contact your healthcare provider."
+                  ],
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {},
+                      "link": "",
+                      "text": "Start screening"
+                    },
+                    {
+                      "text": "What is COVID-19?",
+                      "image": {},
+                      "link": ""
+                    },
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "What are the symptoms?"
+                    },
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "How many confirmed cases are there in the US?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "21dbfb63-3a37-461a-8796-fc8dd987b20b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

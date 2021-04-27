@@ -1,0 +1,53 @@
+{
+  "id": "3c2fda6b-f69c-44e4-b7c7-f4c1ced39ae2",
+  "name": "How many days after getting a vaccine, would I develop protection",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Protective levels of antibodies will develop in the body two\nweeks after the 2nd dose of vaccine."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many days after getting a vaccine, would I develop protection",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8c7c900a-76d7-4d66-b665-17c87dbeafe4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

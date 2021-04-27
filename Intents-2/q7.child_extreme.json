@@ -1,0 +1,89 @@
+{
+  "id": "664e4b5b-93d5-4795-aad3-03d0d5f1053a",
+  "name": "q7.child_extreme",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q7-child_extreme"
+  ],
+  "contexts": [
+    "pronouns",
+    "q7-child_extreme"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Is the child experiencing any of these life-threatening symptoms? Extremely fast or shallow breathing. Blue-colored lips or face. Not waking up or not interacting when awake. So irritable that the child does not want to be held. Seizures.</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Is the child experiencing any of these life-threatening symptoms?",
+                  "text": [
+                    "Extremely fast or shallow breathing",
+                    "Blue-colored lips or face",
+                    "Not waking up or not interacting when awake",
+                    "So irritable that the child does not want to be held",
+                    "Seizures"
+                  ],
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "",
+                      "text": "Yes",
+                      "image": {}
+                    },
+                    {
+                      "image": {},
+                      "text": "No",
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

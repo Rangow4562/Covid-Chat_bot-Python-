@@ -1,0 +1,173 @@
+{
+  "id": "2e685c56-f652-4b6b-b2eb-41cf54517bab",
+  "name": "pts.start-screening",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "start-screener",
+          "lifespan": 5
+        },
+        {
+          "name": "pronouns",
+          "lifespan": 0
+        },
+        {
+          "name": "labels",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Recommendations from this bot are not medical advice. In the case of a medical emergency, please call 911. For medical advice, please contact your healthcare provider. Are you ready to get started? </speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Are you ready to get started?",
+                  "text": [
+                    "Recommendations from this bot are not medical advice. In the case of a medical emergency, please call 1075. For medical advice, please contact your healthcare provider."
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {},
+                      "text": "Yes",
+                      "link": ""
+                    },
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I start the screener",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "160b1974-17a1-4ed4-9f7b-f7afbbad13e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do the screener",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "098e047e-3f8f-4cbf-8d4a-070993603c30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to be screened",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e16a4b6b-7f2c-4605-ac30-bc397f2ece2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Start screener",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44a35f5a-fcce-46f7-92c7-1c420e13c4f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to do screening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f570c126-05e0-43fe-9631-09b605eaebb3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start screening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03845c11-e1a0-466c-9428-36249982c839",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Start Screening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4f96231-9bb0-4820-8ed1-31cc7d108c7a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

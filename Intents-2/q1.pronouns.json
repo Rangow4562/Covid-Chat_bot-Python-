@@ -1,0 +1,186 @@
+{
+  "id": "71d851f8-47a5-4f42-99d8-c526190f2f65",
+  "name": "q1.pronouns",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "start-screener"
+  ],
+  "contexts": [
+    "start-screener"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "q1-pronouns",
+          "lifespan": 5
+        },
+        {
+          "name": "start-screener",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Are you answering for yourself or someone else?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Are you answering for yourself or someone else?",
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Myself",
+                      "link": "",
+                      "image": {}
+                    },
+                    {
+                      "text": "Someone else",
+                      "image": {},
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "👍🏽",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a587d7d3-92f1-42ff-986b-f585c2c924ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "y",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8e16ac89-8201-4972-bb5b-fa03baf691fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yeah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48d36ba4-1844-4614-b612-7a31e204bb4d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's do it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c0508b07-b25c-437c-9aeb-855b7ef55d59",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okay",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d9988dea-1f99-4377-992c-d9b543418268",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's get started",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "178f54d5-24d6-4390-bebf-cdff171a70d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yup",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a34a6d9e-dec2-4281-aed9-f514ef2b875a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed453288-549f-4bb9-9724-b247d2afb8e3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

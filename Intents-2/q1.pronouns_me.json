@@ -1,0 +1,140 @@
+{
+  "id": "a66085d0-d05a-4c56-9d8c-2093b2e50075",
+  "name": "q1.pronouns_me",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "q1-pronouns"
+  ],
+  "contexts": [
+    "q1-pronouns"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "q2-ill",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak></speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f35d436-2187-446c-b442-270fff162735",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answering for myself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa4c6ff6-8b4c-4a8a-89d8-019f43b29291",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "42506cc6-c7a4-486f-a0c1-8cc62511e47f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "for myself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00d8f6ec-1bde-4fad-bbb0-0bfbe8020987",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d02bd02-1844-422b-b70f-92e36f6cd94c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "myself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "14d27bb5-60c1-4eb1-b39b-30b5344220c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fd46750-1c46-4418-9ffe-535b13e201b2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

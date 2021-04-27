@@ -1,0 +1,783 @@
+{
+  "id": "7a8a0c35-0383-4378-9ca6-051449c3693d",
+  "name": "coronavirus.testing",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The process and locations for testing vary from place to place. Contact your state, local, tribal, or territorial department for more information, or reach out to a medical provider. While supplies of these tests are increasing, it may still be difficult to find someplace to get tested. If you think you may be sick, stay home and consult with your healthcare provider on the need for testing."
+          ]
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>The process and locations for testing vary from place to place. Contact your state, local, tribal, or territorial department for more information, or reach out to a medical provider. While supplies of these tests are increasing, it may still be difficult to find someplace to get tested. If you think you may be sick, stay home and consult with your healthcare provider on the need for testing.</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where in the East Bay can I get tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "006c271b-f1de-42a8-9f39-72477cc485bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where should I get tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91afe653-e30f-4c80-8275-b54f3e99d288",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I get tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b9874e2-f6f4-43d9-9396-4fbd76de8165",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "testing kit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bffb655c-5857-4869-aac6-53e72d99504f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need to test",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a36af833-973a-4aaa-9128-76c22eeff3d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7adcaf1-b29b-4b39-9df5-8aaab3382fa0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need to be tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55fa5cbe-04a7-4157-964e-469be92ce166",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need a test",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03f5f05b-1ae8-45bd-a079-0b466a29aa07",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get tested if I'm sick?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "34f311c6-34b3-4e3e-b68a-bffac8286ba6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I’m definitely sick and still waiting to be tested. What else should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cdc2a99-7163-41ff-b126-cfb35b087d57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I go and get checked?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f9c0089-29dc-49df-a9d0-27e8d057aea3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I get checked",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "86bb7557-05e9-4862-97e3-ac6636915bed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can I find testing in Frisco TX",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cbcd96a6-06b5-471c-b7d2-f5e0d2ebe3bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does Vermont have testing..",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa7774cc-5bec-40b8-9809-b98b8c3f747c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i get checked?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ca1487a-5a06-49eb-9107-d36a1c75f656",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have a runny nose, should I be tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e3a384c-a702-4e9a-9698-bb6a134301e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get tested in Chicago?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41b2056e-285d-4f6b-8203-1f8a07ab5339",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is the nearest testing?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cada2920-4276-4a24-86db-e2a861ed6fa5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2bce6ae8-1223-4164-ac33-7e89b02f8e64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can i get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45c3c319-9ad4-4609-8252-c7dde468d200",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is my nearest testing center?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1627c5a4-03d9-480b-9b63-f4ebc812c523",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about testing.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fdd2e72-3bc4-41bb-b0e7-05aa76e2147a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is my closest testing facility?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ec29da8-0a4c-4694-9522-c9cea224fbfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i get checked?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66c287ad-4675-491d-9670-3c66e3751fd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "42a17809-f099-4083-8b9d-10d98fd8d686",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where are the nearest medical facilities available for testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3afe6b1f-6559-4bc7-89ec-88d6a3f5b3e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is the nearest testing facility to me?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6334169-d0a0-40be-bc74-2e3ea56d0b8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are there any testing centers in my area",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2545d06e-0bf4-4c42-98a1-47643ae58f33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I test myself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f03608d5-7e75-4379-888f-e3d167f2acb0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I be tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba9e2a4d-bb47-4b2d-abd1-45261eb27e39",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hi, what is the nearest location to where I can get testing done?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92a30d7c-3143-459d-9818-40192445bbd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is testing available?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b6731be-1ac3-41fb-864d-941bf5b8365a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can I get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4892caa-d9ab-461d-8f70-f1d39075cf04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "204e9f2f-06f3-44c4-8eee-e6c73b0ee947",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I be tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04e9bda2-b2a5-4a07-8a0c-2d74a7b0f6c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "12b3190a-6fcd-47f6-8e9e-bd9f36b82bd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can anyone get tested for ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5485619e-a0b7-4090-8932-cff3cbad783c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "testing centers cupertino",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe52e3b3-366a-4509-adaf-589909b98537",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can i get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86d69c61-38a2-44a1-882b-33432ccd5ae6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I go to get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "452d00b1-d347-4e30-87a9-459949c903da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the website to find location testing?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5753b600-010d-4620-b6a5-78874b0ac831",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f65b581f-b992-4186-88ec-baccaa004755",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I get a test?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d491b590-36c8-4372-a49a-1f644897f7fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get a covid test?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "84051365-9712-4e3a-a623-d6bd810802b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "So can I see a hospital if I need to go or what should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1ca8450-8cc1-417b-9313-30c04ff3821d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I get the tested can I see Hospital?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88278121-0a0b-4933-ac6f-4a68398f0513",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What number can I contact to get more help in case I get the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3418cfbe-b36a-4158-b74c-d26c9c91f6d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can I get tested",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc4aa3a1-aef6-4f88-8776-10b8417a385c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I need to do to get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b96fd877-f8ea-4c2d-befc-e40e028e4d41",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me testing information",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c2e2b0d-d2ca-4d4c-b04d-8804cbfb49a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I think I have ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " symptoms, where can I get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "659ce760-3cc0-41e7-8fd2-bcff61271d88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the website for self screening?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e11d2d8d-7428-495c-843b-ca19f1618400",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How to get tested for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f60dbd50-df65-4e3e-9ff7-4df6a40b7443",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to get tested, what should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e4a490c-9883-4ceb-b6dd-69df8edf78cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i get tested?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d5538bc-9ef5-4258-bca3-93b80ee21053",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get tested for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52ead991-b3f1-42a6-9113-ef7581c15d50",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

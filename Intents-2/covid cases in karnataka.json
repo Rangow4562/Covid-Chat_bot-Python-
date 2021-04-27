@@ -1,0 +1,92 @@
+{
+  "id": "fdb003df-3616-4fb5-b49f-78ad4083f3af",
+  "name": "covid cases in karnataka",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-state",
+          "dataType": "@sys.geo-state",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-state",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Hi. This is the COVID-19 Chatbot.Here is your location?",
+                  "text": [
+                    "District:Kalaburagi",
+                    "Last Update: April 27, 2021"
+                  ]
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "image": {},
+                      "text": "📍 ESIC Medical College Hospital",
+                      "link": "https://goo.gl/maps/RcUtqaGQjpieWqve9"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Kalaburagi",
+          "userDefined": true,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        }
+      ],
+      "count": 0,
+      "id": "dd619639-357f-45db-8069-a0d367f3cad1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

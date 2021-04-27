@@ -1,0 +1,82 @@
+{
+  "id": "4e440dd4-8681-416d-be98-d111d0e19c0a",
+  "name": "q15.breathing_severe_extreme",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "pronouns",
+    "q15-breathing_severe_extreme"
+  ],
+  "contexts": [
+    "pronouns",
+    "q15-breathing_severe_extreme"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "trigger-question"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Are #pronouns.pronoun1 having difficulty talking without catching #pronouns.pronoun2 breath?</speak>"
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Are #pronouns.pronoun1 having difficulty talking without catching #pronouns.pronoun2 breath?"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "",
+                      "image": {},
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No",
+                      "image": {},
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

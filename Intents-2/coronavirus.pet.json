@@ -1,0 +1,315 @@
+{
+  "id": "97ef32e4-d411-4842-9ac9-42fd75962bea",
+  "name": "coronavirus.pet",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19. Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low.  A small number of pets have been reported to be infected with the virus that causes COVID-19, mostly after contact with people with COVID-19.  Pets have other types of coronaviruses that can make them sick, like canine and feline coronaviruses. These other coronaviruses cannot infect people and are not related to the current COVID-19 outbreak.  However, since animals can spread other diseases to people, it’s always a good idea to practice healthy habits around pets and other animals, such as washing your hands and maintaining good hygiene. For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit the CDC’s Healthy Pets, Healthy People website..</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19. Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low.  A small number of pets have been reported to be infected with the virus that causes COVID-19, mostly after contact with people with COVID-19.\n\nPets have other types of coronaviruses that can make them sick, like canine and feline coronaviruses. These other coronaviruses cannot infect people and are not related to the current COVID-19 outbreak.\n\nHowever, since animals can spread other diseases to people, it’s always a good idea to practice healthy habits around pets and other animals, such as washing your hands and maintaining good hygiene. For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit the CDC’s Healthy Pets, Healthy People website."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I get COVID-19 from my pets or other animals?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I get it from pets?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cc5f641-808f-4390-8d6b-73e46dee1d20",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can my pets get the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cfe59e7-17bd-4e35-b3b3-a99b15e870ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can pets get the ",
+          "userDefined": false
+        },
+        {
+          "text": "virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f536c389-b432-41b6-bb15-768553ef133e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I get it from mosquitoes?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b322b51e-d355-46ba-859e-928a88340c68",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can bugs transfer it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0e3f68d-6640-4ae5-ad76-dafd632ec83e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i get ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " from my dog?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d10e84b-86e9-4021-8232-f19b518bc0c7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can my dog catch it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0cf6c83b-06e7-4b3f-bad8-a0cfe5fa2e17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can dogs get ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b218f14b-f436-4508-a8b4-8c98aae8e421",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I give the virus to my dog",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "618aa9ef-fd4d-4a01-b2c7-d15cf79b0791",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I pass the virus over to a cat or other animal",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77ac248e-6ca9-4f71-be2d-ccf9ae9e37ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can my pet get the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "71c73827-caab-4dac-871f-9e6ff4182341",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do animals get sick with this new disease?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d37839b3-f30f-4b16-a4f3-9367440b4210",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can pets spread ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": true,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d044b0eb-5bef-40bb-98ad-3e5573167803",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it possible for my cats catch ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3d574c1-855e-4f25-9119-7144a5e0b38b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are my pets at risk as well?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b17c821-4ff7-4320-b96e-0e219ebc2a84",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can my dog get infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c362f970-bc2f-4f10-9a4a-d27186f3354c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

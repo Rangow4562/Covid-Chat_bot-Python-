@@ -1,0 +1,923 @@
+{
+  "id": "604c4143-839e-499b-8b74-2f1b0cb18a5c",
+  "name": "coronavirus.protect",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Visit the CDC website to learn about how to protect yourself from respiratory illnesses, like COVID-19.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Visit the CDC website to learn about how to protect yourself from respiratory illnesses, like COVID-19."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the precautions to take for ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " wear?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7047912a-7476-480e-9ba5-a6f7eeafcc9f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what precautions should i take?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b26bb1ba-38d8-440d-a025-75499876eb51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": " If I’m sick, how do I protect the people I live with?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "733740c0-6cc3-4431-a14e-98570833081d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how to prevent getting ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "cbaa149f-4472-4e76-969d-8d6e8a338614",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how to clean my home to prevent ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "f46bdbaf-284b-42c2-a395-a81153319dbc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I guard myself",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9cba1475-0d88-4190-ac51-7406066c01ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What precautions I need to do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "621f7f04-5e74-45b2-9ad8-7f388fed6007",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I think I have ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": ". How can I protect others from getting it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d26b229-b2d4-42ef-a977-14fdd24a1ca9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I protect myself?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e50afec8-92a1-4554-9075-fe147b58bce2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "precautions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60c5ec62-eff4-40ce-b203-19983bf4f575",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what to do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eeab55a1-2447-4614-a79c-aa2062e80eaf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can I do to protect my family",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "abb84b53-759e-419d-ac2c-5f9fc8b30d20",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I defend myself from getting it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "33b97369-5007-4acd-8318-73210d5f58c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I save myself from getting it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c62eabf-39c2-4e43-b446-ac3bf22c0a86",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should we wear gloves when we go out/",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3650c8a5-c8dc-4175-98f1-d8123ae172e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can you stay safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63f8db55-91d2-4a7c-98cd-0050d454c3bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can one stay safe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c9a9012-86f5-46ad-b171-d4517db10cdc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how to not get the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7e4ec1c2-478d-4d91-a36c-45404079c5d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I protect myself?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a87ca384-46d8-46c8-b77a-762343330e1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I be doing?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cfcacbc1-6e2a-4556-82d4-66838205a9e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I be doing",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "77ddbb14-6323-49d0-a20e-4b91ced42864",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have any advice?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "88bb272b-44e9-4914-8960-873fd592f0f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have any advice/",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5da55322-3cfc-4184-8c47-f562f5f1d19f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I stay safe amidst the outbreak?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c7acb54-eec3-4282-8a33-7ab8753f9bef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have tips to stay safe?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "84d5ca80-4633-4ae3-930b-0ee9332c5222",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tips",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "beacb2f2-2796-4b8a-99fc-83340e87c3c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d3cb447-cb35-4cd5-9c11-608ad9930581",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the precautions which I can take to protect from getting infected",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1bceb32-5a7e-4f38-a703-8632c9ae44dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "690fbcdb-124d-4abc-b307-d1b862d02485",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "820a9326-cded-4c85-af8c-0121b8028a68",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I avoid giving ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " to others",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7cdcac6b-7586-4130-83cc-cec7b2bbc881",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can i do to not get infected",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90ee5b8c-5d9f-413c-8a95-a6c7248907a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do to keep myself safe?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba5da2d2-de6e-43c0-a619-5c01eba965b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I do anything to avoid being infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6689dfc-2936-48f1-b9f5-fe1eb226b6ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I avoid covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "034330c1-3b72-46fe-bee0-ecf1dd302f29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I avoid getting the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4b647ad-d278-4ef4-a696-79063627b458",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I do to not get infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b35d0b16-5e5d-414a-92fe-3e9866c9fa7e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I keep my self safe from others?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55be9739-8b46-4486-a365-e3cd3e471f01",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how to stay safe from getting it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3cd87e1-fbd6-4bef-8617-e488a0285243",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i make sure i don't get the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "766bbe84-00fc-42bf-bf34-0b61d9216a0c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What precautions should I take",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90f6ba0d-9bb4-498c-a256-d23b65d1fb94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I avoid to do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "807dfb14-f2e3-4b53-8fc6-1557f16f136a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I avoid giving ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " to others?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b958bc8-dd8b-4fb7-91b9-e9f8b4484065",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should i do to avoid it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fdc2707-c26d-4e24-b03b-0377bbf839a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i avoid ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9bc18884-0b02-4bf7-99e7-2d46fb016431",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm about to check myself in my family.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44206610-e36d-4b45-be55-0f805b70da2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, how do I protect myself in my family?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50504439-64c8-478f-aa66-58d197ade6d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the precautions I need to take?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "278c2631-5746-4f16-a758-fb44b500aca0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " preventive measures",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ea7d799-62ce-4d51-bea8-cbd9f676eb83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "methods of prevention",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae9fa8b5-8b16-4367-a77a-6a8e7e0d9637",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Protecting myself from the disease",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf6ab310-f1a5-42be-95fe-676e633bf644",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How to protect my family from ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7a0c158-05f1-458c-bd9a-1fb36d2de34e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I protect myself at a workplace?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8746c09c-d0f7-443d-aae0-809de61acb76",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the practical tips for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " prevention?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44dd1610-9f89-46cf-bb76-60a65967a012",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I avoid getting infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc10834e-b3bb-4a52-a8cb-3712e4f2198d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any prevention methods?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bda3b12e-ebee-43f9-b807-f57cadf0981d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what to do to prevent ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94d07fc1-eccc-43e8-b323-a9a31ed91219",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I do to protect myself and prevent the spread of disease?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0c24202-342a-47a8-a3db-021656ece4f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I do to protect my self from being infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ec35877-d2d2-4593-be2b-06190a248c56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What precautions should I take to prevent being infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59b75f48-b889-4f41-9619-5bcb1213e2a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should i do to prevent myself from being infected by ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c8009ac-b1f9-40e5-8296-9bbf6affb209",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I protect myself from catching the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " disease?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d203e45-55d3-4bae-999a-2197699d85b5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

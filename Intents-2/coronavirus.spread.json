@@ -1,0 +1,726 @@
+{
+  "id": "279cd436-0d82-4afc-bd30-ecf5b1c1ab6e",
+  "name": "coronavirus.spread",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).\n\nCOVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.\n\nVisit the CDC website to learn what is known about the spread of newly emerged coronaviruses."
+          ]
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).  COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.  Visit the CDC website to learn what is known about the spread of newly emerged coronaviruses.</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is covid-19 spread by spit?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9062ac30-6fc4-4fff-8ff4-206055f2bef9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I get it",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "bfb3d5b4-252d-4b47-b73a-9aad8d7c10b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how contagious is the corona",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3f9875b8-3ea0-4443-bf3a-ba2164eedf52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I get it by kissing someone",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "21b03539-1319-4ad2-835f-ce7b04b37ffb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I get it if I am in the same room",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "04052908-4f9b-4223-b1c8-09d3e2ac510a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I pass it on to my child if I have it",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "06be5500-865e-4025-8472-e03892403b24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how contagious is it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb70bad5-57ff-421f-999c-d696827d4513",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does it spread easily?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a6ccd2d5-e379-4953-aed8-eba1ca7c602d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does one simply walk into the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "561cc114-41f0-447d-a5a5-78d1a251a871",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how contagious is it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80562baf-cee8-41cb-85b4-18a5d052b722",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I get the virus bringing in my trash barrel?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "857557a1-f7eb-4652-98a8-708c4aa1e2ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do you get COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f810f9ba-2473-4a47-acb0-4253913ff0a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can it spread via surfaces",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65cfb8e6-6a56-4686-b7d4-9a6ce48ee706",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can it get spread via food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "28d7696a-fb70-4a7c-bfb4-b6fd18c573b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the virus be spread via toilets",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f502fd3b-4eb9-4a2f-b5f5-32a4af18f25b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I get COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dbd37eaa-52d8-4416-8c7c-7aa5b5c18611",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I get covid?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f7ff298-18aa-4e63-b247-412e6c7da08f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I get ",
+          "userDefined": false
+        },
+        {
+          "text": "corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "eec195e3-68e9-4c52-bde7-ae9e2fb66a63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it contagious?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d5aa083-4a2c-4397-9127-c6cbcc36272d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is COVID-",
+          "userDefined": false
+        },
+        {
+          "text": "19",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " contagious?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa8f15ca-95c9-4fd2-9bac-18d187363411",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i catch",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "210103d7-5373-47dd-8875-3fcb30fc6410",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i catch covid-19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7144f0ef-eb9a-4633-9037-355ac3e639c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are all the different ways that the virus can be spread to other people?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db9cb222-1ade-4260-8e23-fd7242f0d2e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How does the virus spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe6970d5-19e7-422e-99c0-fbeb716465e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How is COVID-19 transmitted?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d5dbc3b-d8de-40ee-8169-0acc07bb6289",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how is it transmitted?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f40b9cd2-3ad5-473b-b59c-4aea7871277e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how is the virus transferred?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8870d793-63b9-4146-bdc3-e31663a778f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do you get the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4409e29-155d-4921-9617-11d315391ca4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I catch covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2aa82298-b557-42c1-a9b9-7cabedd4ff24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how does the virus spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cfe2e793-59f3-4c7a-a6c9-dc1557931ee0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is it transmittable before symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f94253ca-b434-43db-a336-b49c009ca703",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can someone infect before showing symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f146d5e4-e024-402a-ba31-ab3b3d6098d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is it contagious before showing symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5eb0f1f2-7678-457b-a88e-703828317e7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the virus be spread through food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a4a88fd-bbd5-4cef-bd4f-42fdad8f51e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do people get the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a2026eb7-3d48-42bf-bc1c-8d7f12457f37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I catch this?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba0e03e6-30ae-4160-88a2-9a1dd0ad4ada",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do people get the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "602cc28f-573a-4d14-a8a8-4ef95ecd3afe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how does it spread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70628166-7d74-47cb-972a-fe790f25d519",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i contract it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2bb6c89-5cb5-4aae-972a-319ad94ebc46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How is the virus transmitted?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3b3ddd0f-e27e-4d17-ab6f-a553662634d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how does the virus transmit?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5dec56ef-2168-48b3-a2d4-6384aa3ac4aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do we know about the virus spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b705f64-b10f-4d18-8ea7-63cc5a74e459",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the spread of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "adc67534-705e-4e71-91be-54e3ff232126",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "viral spread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d19e3df-0f68-48c0-8ed1-374d335a8fd2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why is covid-19 considered a community spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b3ba849-5624-4db9-905b-1411fe2e19d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what does community spread mean?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8f137c58-becb-4370-bfe6-0a2d5e51851e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid-19 spread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2111850f-f238-4768-8046-f247df85da80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How the new ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a6fc811b-3578-48cd-9b79-e80390373026",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is community spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1a18774-e355-4618-9d3d-bc7607eb971b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " spread?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cac21404-9cce-4648-85d1-52390c8fa3ff",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

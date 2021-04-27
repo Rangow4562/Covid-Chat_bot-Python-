@@ -1,0 +1,669 @@
+{
+  "id": "c361651e-7298-4982-b617-20a5a9be96de",
+  "name": "coronavirus.outdoor_activities",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-city",
+          "dataType": "@sys.geo-city",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-city",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "outdoor_activities",
+          "dataType": "@outdoor_activities",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$outdoor_activities",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age",
+          "dataType": "@sys.age",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$age",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Check your local city, county, and state government website for specific guidelines during a shelter in place."
+          ]
+        },
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Check your local city, county, and state government website for specific guidelines during a shelter in place.</speak>"
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I go out yet",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9556027-7b2b-4b2e-b80f-30b802284e0a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i go out",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f8ff9f0-668d-41e9-9c23-20c4475be5d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What does shelter in place mean?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54dc8f80-c850-46f7-8450-12dbc99ee77f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is shelter in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b2e64e47-235d-43c6-8d32-c8e4c1461f3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still go to work?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71700447-caf4-4340-8a87-3bb51334a907",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still take a walk in ",
+          "userDefined": false
+        },
+        {
+          "text": "San Francisco",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7101ab36-c77d-40a6-afa9-b8e40cc42c7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still take a walk in the neighborhood?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf29d11a-3f79-4fd1-b5dc-58c034b07b70",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "still jog",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a88e9ae5-be03-45b2-ac78-beb104daa91b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still go take a hike?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38c9ec51-c25a-4ae7-8a67-b5c6a2db16a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shelter in place",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9054099b-7137-4a2b-8f3d-63f3d46707e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still go for hikes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7ff988e1-ad1c-4b78-bea0-d88992ea6ace",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still go to restaurants",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e95e5b43-bc67-4629-b07f-392246aa20d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still go out",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9000e8d1-4c6e-4206-9a9d-f6cd294ef91f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still go outside",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6e5ce6e7-3184-440b-be85-742c7c490386",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I take a hike in the woods?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62cf6b67-1221-4003-a7fe-e8864145b60d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still do outside walks?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "521faf3c-04d7-4c66-8e4f-feea61d78188",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Am I allowed to go outside?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee98c6e7-befb-4ace-863f-101fea5cded7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go to the gym",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20d3920d-4ffc-4e9b-a9bd-615818ae0ca8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I workout",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be180a92-dca8-4b58-b9cb-c351306826d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I order take out?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f26af75c-25cf-430b-bb36-bbc01d478a24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I order food for delivery?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9940c537-b43e-449d-b7fc-a2d054c94253",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What has been cancelled?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8c44fa37-3f86-4ab8-a118-a1d7bda770bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should my ",
+          "userDefined": false
+        },
+        {
+          "text": "70 year old",
+          "userDefined": false,
+          "alias": "age",
+          "meta": "@sys.age"
+        },
+        {
+          "text": " mother go out?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d5468f7a-7a3f-4036-a1db-e634eacefba2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go grocery shopping",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8519f959-d8a4-420f-8fa0-c2efa0918860",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I still go out to do my grocery shopping",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7966f505-c14e-44db-86e1-e85d0c0bd4d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it safe to go to the coffee shop?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "06539abb-1d5f-4c4a-8abb-996d3654ce0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are my kids safe to do the monkey bars at an outside playground?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29451059-f38a-484c-b792-baa84698dc0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is takeout pizza safe?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f715859c-4215-46ed-aa21-60c9b73aff5c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I take my boat out fishing?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be94e1dc-bf71-454d-bec0-fe7fd350d345",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I cut my lawn?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9127f5cf-2218-437e-a478-a1fc2f30cd4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I take my dog for a walk?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d474290a-17a5-430e-b531-adabc1538e47",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go to work if I feel sick",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10cd199a-0a10-4380-9f2e-4d223a108c37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is it safe to go to new york now",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eaa41165-6520-4b1a-86f0-b38f2f55155f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I visit with other people?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "99316614-a534-4561-9f8f-cc30da3de2e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "dangerous to go to a store?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b546686d-7cd6-4d42-bc1f-0a6eb343d040",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is it safe to be outdoor",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "034f4729-f0ad-4e67-aa4a-3501b4ba63c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go ride my ",
+          "userDefined": false
+        },
+        {
+          "text": "bike",
+          "userDefined": false,
+          "alias": "outdoor_activities",
+          "meta": "@outdoor_activities"
+        }
+      ],
+      "count": 0,
+      "id": "f0bd7c3b-5d3e-4fe2-b093-4e896e836479",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I ride my ",
+          "userDefined": false
+        },
+        {
+          "text": "bike",
+          "userDefined": false,
+          "alias": "outdoor_activities",
+          "meta": "@outdoor_activities"
+        },
+        {
+          "text": " outside?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1fe6ecd7-c4f2-4a9a-b2da-611d9b193000",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Shall I go to work?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d22626cf-d50d-47b2-89bf-68d3100e13f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I go to work if I feel sick?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35440baa-4b39-414f-a091-951fd34bb1e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still go to ",
+          "userDefined": false
+        },
+        {
+          "text": "church",
+          "userDefined": true,
+          "alias": "outdoor_activities",
+          "meta": "@outdoor_activities"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7eca2101-5954-43d4-928b-e690f6b94514",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When am I safe to go in public?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e52cf2b3-991b-4484-ad37-ba97e5b0a9b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I ride my ",
+          "userDefined": false
+        },
+        {
+          "text": "bike",
+          "userDefined": true,
+          "alias": "outdoor_activities",
+          "meta": "@outdoor_activities"
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "san francisco",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45e35c8b-bfa1-4225-9f5b-13d6f07c3dc0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

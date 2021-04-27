@@ -1,0 +1,869 @@
+{
+  "id": "04cb6e8b-4680-4f22-ad2d-58cbe55f7100",
+  "name": "coronavirus.symptoms",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>According to the Center for Disease Control and Prevention, current symptoms reported for patients with COVID-19 have included fever or chills, cough, shortness of breath or difficulty breathing, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, diarrhea. Symptoms may appear 2-14 days after exposure. This list does not include all possible symptoms.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "According to the Center for Disease Control and Prevention, current symptoms reported for patients with COVID-19 have included fever or chills, cough, shortness of breath or difficulty breathing, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, diarrhea. Symptoms may appear 2-14 days after exposure. This list does not include all possible symptoms."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What about losing sense of taste",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5a253946-39ba-4cf4-87dc-327d73b7e3e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is losing sense of smell a symptom of Covid?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61800552-819e-467b-a957-4ccfa33b11a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is red eyes a symptom",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cff4d3f0-2a72-4b5d-8f01-4cdf40a9e7f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a095458f-25d5-45ad-9d8a-59943bee2670",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is chest pain a symptom",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74f7db07-e256-4736-9d53-f0c6bcc7fed7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the signs of someone who caught Coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "148aedb9-3ee8-4bd1-9524-02cc41f8506b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "And what are the symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62349612-3b62-47d2-9c5f-d667963be2b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what happens if you get it",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "be2e164f-1a2c-4975-a6b0-df99808c4dea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what happens if you get the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b5b9321-71bb-4380-91c6-b9aad1aba6cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what happens when you get the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "474daa29-17cb-4d7a-9d52-ed6b6fe7f23a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I know if I have it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f95c6ce-387c-495e-9a4c-30a99df9047b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know if I have it or not?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49abdb9d-45b5-4ad4-911a-6f50dccf523d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what indicates that I might have it",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "acec79f5-4cc3-4c6d-be91-8f0d57c1ee91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what indications",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df8dc1ad-2bb9-48c5-9577-e796aa899392",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the top symptom of covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85b156ea-d54e-449b-a29a-b9de8b9ec447",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I know if I have the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "75598fea-79b3-42c1-a1ed-bf9e546437b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are main symptoms of covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "deac9aa4-0449-47ed-9d8e-0fed132ed798",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My throat is scratchy, how do i know if it is serious?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f1f91a4-de8f-48ef-928c-e30172c6b8c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are covid symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f75c6624-e201-4c3c-b9c1-7f1c73cf7163",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i find out if i have covid-19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3729f11-d7ee-4087-b37f-ab1add815227",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the symptoms of covid-19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a76da3a5-1e44-42e5-aa98-0f5ad63ce927",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have a rash, is that a symptom?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6d5801b-f162-4ec7-9b5a-5df3401d5ce1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do i know if i have coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6cfb2291-7293-4702-96e9-3eb9c79d9c29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the symptoms of covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caeb6e0c-3739-4182-974f-ac7f6add6411",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about symptoms.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "154c70f8-3058-40d2-bd63-719e92682b80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a symptom checklist?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5d1403c4-3ffd-42af-b5dd-45391625e64c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I tell if I have covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c0f1f090-c712-4e59-9c57-e0f1edf9f93c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i tell if i have covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bcfd6056-50ac-47eb-8251-ddadc653cb7e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I check for symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c96dc40d-be48-4e22-87b1-e62b4a1aedd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87f3bca8-0700-4fbf-87b0-74f62bd5120e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the signs of covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9f24096b-98a0-4831-8dcf-596f26977a81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know if I'm feeling exposed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da8fda69-9768-4b2d-824e-5b8fa256f3af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the symptoms of Coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5a4adbc-ff36-4072-92a3-8b9540b4c37c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How to tell if i am infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f594d7f8-87e0-4b9e-8c84-4b958ee4046c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is it like to have the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1629b816-2342-4b68-80a4-fbb98ff6f6f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is it like to have the virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c3a30e1-df1a-44d8-b66c-dad304651426",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4a669a7a-e47d-4889-9490-8c52e34f9c85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is a runny nose a symptom of corona virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ce2a648-d509-41bc-beaf-355685e51705",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I look for to indicate I need a test for the covid19 virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6af71acf-e341-4599-8570-1bf86396a7c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know if I have the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "30d5a19b-d690-4913-9d36-d53a1a9dae30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what symptoms do people show?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b376aaba-b356-41bc-83f7-5b3bc60727bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Covid symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6cddd8aa-1098-4f1e-ac4a-7e9a8106dcf1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdc98b44-aaed-409e-b073-a1c5e69de457",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "94e1386d-565e-40b5-8ed8-f93a293a3739",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know if I'm sick?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c28e722f-2ef2-4da2-978c-a55c17e7ae39",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the symptoms of code 19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1373b794-360b-44a9-9d58-fb6b61b6d634",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what symptoms should i be concerned about",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a13b6672-599d-430e-b19e-a2d4006741f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b906fc63-9b12-4812-9352-d6f1437445ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know if I'm infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "731707b0-109e-47fc-9e9c-7b7c52f6fd17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I know that I'm infected by the Coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b4b0382-ea33-4ac7-8054-4423cbc99831",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc1425c1-fc4d-4742-bbcf-b9a852ff9de0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "OK and what if I have symptoms, how do I know? What are the symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "223f606e-4e92-4d1b-87fc-da3c574cf298",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not sure if I have Corona",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca8b714a-0863-45b7-81d7-298132680649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I know if I have corona virus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65fb2baf-5a6c-4c73-a2dc-685752f03081",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the sypmtoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9c0b87d-6aaa-45b7-b694-6de60f8b0cde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the symptoms this coronavirus causes?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a13e63fe-00b7-4105-a90c-1e6c6b1bc19b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I tell if I have coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3471a709-9c07-4e31-8001-8015512f860b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "symptoms of coronavirus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f8a87df-d8d1-463a-8c99-41023ed11a6d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "common symptoms of covid ",
+          "userDefined": false
+        },
+        {
+          "text": "19",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 1,
+      "id": "f5edd96b-3f59-40dc-9e2a-72f55d8b281b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can i tell if i am infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "855b3f3e-78ae-481a-9382-eef2268a0123",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "flu symptoms vs coronavirus symptoms",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62cbd29b-0bfb-40a9-b17f-72d68b9ac3e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the common coronavirus symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15ff7e29-395f-4787-a94e-cefd4bc5f32e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the warning signs to know about coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a48a93d-b6ee-4d3f-a0ad-5c97a763ff29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how does the new coronavirus symptoms compare with the flu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1efa0a25-bb6f-4188-a765-7f0a94a5efd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the signs of a coronavirus infection?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe0107ec-9040-4ea5-81f1-83293d0959b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the symptoms and complications that COVID-19 can cause?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81733f5a-cfc4-4d44-b652-a21578aa3e00",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I know if I have caught coronavirus or not?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e7bf3b9-740d-412d-b2f2-be29a1d6df55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the signs of someone who had caught covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4efb1304-242f-4e71-85a0-1d1706c0cb38",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

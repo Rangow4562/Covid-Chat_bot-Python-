@@ -1,0 +1,76 @@
+{
+  "id": "cdf1eb0b-b00f-4ea5-9bf3-8cbc8ffef958",
+  "name": "more news",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "New Delhi: Karnataka government has imposed curfew from tomorrow night for two weeks amid rising COVID-19 cases, reports news agency ANI. COVID curfew will be implemented in the state from tomorrow 9 pm for the next 14 days, Chief Minister BS Yediyurappa announced after a Cabinet meeting. Also Read - Karnataka Lockdown: Total Shutdown For 14 Days From April 27: What's Allowed, What's Shut | Full List & Guidelines.",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "title": "Karnataka: After Imposing Curbs, BS Yediyurappa Urges Ministers to Take More Strict Measures to Contain COVID Pandemic"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://www.india.com/news/india/karnataka-lockdown-news-today-april-2021-night-curfew-in-karnataka-bs-yediyurappa-directs-ministers-to-take-more-strict-measures-to-contain-coronavirus-pandemic-bengaluru-lockdown-news-karnataka-coron-4604487/?utm_source=recosense&utm_medium=recosense-widget&utm_campaign=recosense",
+                      "image": {},
+                      "text": "More News"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "more news",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b35584d-cbdb-43eb-8b2b-ee398cfc9010",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

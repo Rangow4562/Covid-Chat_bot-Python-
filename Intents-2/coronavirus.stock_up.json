@@ -1,0 +1,509 @@
+{
+  "id": "32622a7e-ecee-4e92-90c5-5fdab61dbb50",
+  "name": "coronavirus.stock_up",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Create a plan to help protect your health and the health of those you care about, especially if there's an outbreak of <sub alias=\"covid 19\">COVID-19</sub> in your community. You should base the details of your household plan on the needs and daily routine of your household members. Visit the CDC website for a planning guide.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Create a plan to help protect your health and the health of those you care about, especially if there's an outbreak of COVID-19 in your community. You should base the details of your household plan on the needs and daily routine of your household members. Visit the CDC website for a planning guide."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I buy more food or water",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0cc1e617-021e-47f8-9267-61a667162291",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How much toilet paper do I need",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4231e7e-a3e2-499f-9de7-86c8399779b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How much toilet paper do I need to survive covid-19",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa71e844-e1bf-4ca7-944e-3a27bd9f19c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do I need to buy?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa54cdc4-aafb-4126-bf8c-becb24325075",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there anything in particular I need to stock up on?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16f470e6-7656-4498-92c3-1a36ff5fefa8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should i stock up on medicines",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e8b6c7cb-995b-43f8-a6d4-0690765c9027",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to stock up on food etc",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "491da13a-bddc-4d95-9e3d-e9b4986d37d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to bulk buy food",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6799194c-fc43-4210-bcd2-c83fd6a05288",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I think about having handy at home incase I get it",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "98f51530-0c35-4097-94fb-e0a41152e74b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should i Buy incase I get sick",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ed3aaa21-2fbd-447c-8874-854c9bdca03c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to  stock up on food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae212e0f-1128-4fe1-9ead-a7547a84751c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should i stock up on medicins",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "018bb4e6-fcf9-42af-9931-f37f450c3cb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to stock up on food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "010c38d3-30c3-4f41-863a-b132478bcc8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I need to stock up on",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "617872d9-ca71-4b53-9124-5189fb5fdafa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I think about having handy at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c61355fa-9980-40e3-8e92-4f431ea29447",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I provide myself with extra food at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3111deec-d39c-403b-86ef-671122bf1f57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I provide myself with having extra medicines at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9097f49-faf3-45a1-8a43-47cd2e1f0616",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Okay, should I stock up?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63bb91b5-f1d2-42a5-93ef-2692f6fdd3e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I stock up if I stay at home?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c133b890-5b15-4964-94e5-ad6178cd8622",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " supplies should I have at home?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f6ac911-86c1-48b4-a493-1123f5f987b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Food, supplies to buy for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "242b9b1f-ef69-4c27-95ed-f7ba200225e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what to buy for home quarantine during the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd12ce63-f602-4e41-a9f6-8b51c1441745",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid-19 grocery list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee949d08-7148-4170-b929-927b3bfdcf36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what to buy for the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " outbreak",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e086c839-ee56-4359-a9c2-504e667ca446",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "essential quarantine items",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "18be9ff8-f71f-4f6f-ab28-d5a1957b2254",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " shopping list",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "980a2a5a-1f2b-4765-a0dc-c6592d6f33ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What to stock up on so I'm prepared?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a4ceaad-4a12-46ac-849f-ee4c9525d211",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "items to stock up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4697eacc-52f5-45f4-abbd-749a97eb4eae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the things that I need to purchase for my household?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fca83670-8be7-4b0f-81d6-1f73263dbc0c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "stock up checklist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a770be40-5b98-413e-b306-344e41012cbb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Things to I should buy to stock up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7eda685b-e3cd-4fce-83f4-646e1d3da767",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What kind of supplies should I get to be prepared?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4252469d-47d8-42a0-b656-de07e6c30b37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What to stock up for ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aaeae32a-632c-4710-a216-ab41055e3847",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

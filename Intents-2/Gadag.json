@@ -1,0 +1,92 @@
+{
+  "id": "418fdbcd-e9c4-4b1e-bec3-40acd71e9076",
+  "name": "Gadag",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-state",
+          "dataType": "@sys.geo-state",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-state",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "District: Gadag",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "title": "Hi. This is the COVID-19 Chatbot.Here is your location?"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://goo.gl/maps/H1u97eMwNcq15nD36",
+                      "image": {},
+                      "text": "📍 GIMS"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Gadag",
+          "userDefined": true,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        }
+      ],
+      "count": 0,
+      "id": "338bca37-c942-4e5a-94ac-4f134911c649",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

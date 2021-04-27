@@ -1,0 +1,76 @@
+{
+  "id": "8e4c219a-446d-4f2b-9912-17f578ac5478",
+  "name": "News",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "The daily number of COVID-19 cases in Maharashtra dropped to 48,700 on Monday, taking the count of infections to 43,43,727 while 524 deaths pushed the toll to 65,284. Maharashtra had reported the lowest number of infections in this month so far on April 1 (43,183 cases). Mumbai city reported 3,840 fresh cases and 71 deaths, taking the number of infections to 6,31,484 and the fatalities to 12,861. Thane city too reported a drop in new COVID-19 cases with 698 people testing positive.",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "type": "description",
+                  "title": "Mumbai city reports 3,876 new COVID-19 cases, 9,150 recoveries and 70 deaths"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "More News",
+                      "image": {},
+                      "link": "https://timesofindia.indiatimes.com/city/mumbai/mumbai-latest-news-live-updates-maharashtra-lockdown-uddhav-thackeray-coronavirus-vaccination-rajesh-tope/liveblog/82250610.cms"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid news in India",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a193475-617e-4996-8390-58bf52124f89",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
