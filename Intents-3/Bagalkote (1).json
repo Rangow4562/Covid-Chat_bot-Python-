@@ -1,0 +1,92 @@
+{
+  "id": "00966cea-9501-4d3d-898a-ff6ef3d07233",
+  "name": "Bagalkote",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-city",
+          "dataType": "@sys.geo-city",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-city",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Hi. This is the COVID-19 Chatbot.Here is your location?",
+                  "text": [
+                    "District:Bagalkote",
+                    "Last Update: April 27, 2021"
+                  ]
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://goo.gl/maps/eRmSYBkFjQscjJCW8",
+                      "image": {},
+                      "text": "📍 District Hospital"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bagalkote",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 1,
+      "id": "cba45e74-126e-4faa-9966-677cc537caa0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

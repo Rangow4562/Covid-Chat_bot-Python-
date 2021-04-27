@@ -1,0 +1,119 @@
+{
+  "id": "c766ca60-56b3-4ffa-b67a-3588437e8a24",
+  "name": "coronavirus.incubation_period",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>According to the World Health Organization, the incubation period, the time between catching the novel coronavirus and showing symptoms of  the <sub alias=\"covid 19\">COVID-19</sub>  disease range from 1-14 days, most commonly around 5 days.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "According to the World Health Organization, the incubation period, the time between catching the novel coronavirus and showing symptoms of  the COVID-19 disease range from 1-14 days, most commonly around 5 days."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long is the incubation?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1bfccc8b-deed-45c2-9382-4f6c1015cb7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "incubation period for coronavirus",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2251e6f2-f8e1-4d35-8576-1dbd228d665a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long does it take before I show symptoms?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "372f268f-5511-4ea8-b4b4-4eb0de9c967b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long is the incubation period",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "248cbf52-76f3-4c88-85fe-d50ce71cf449",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long is the incubation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b3a96518-6e7a-4a04-9dbd-1554da270639",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long is the incubation period for COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74eb1434-4111-49db-88c8-7f3d741991b4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

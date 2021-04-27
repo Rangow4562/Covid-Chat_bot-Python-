@@ -1,0 +1,109 @@
+{
+  "id": "8e92f19c-b7a8-4cc9-8426-7e60c57fffc8",
+  "name": "coronavirus.mask_children",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>CDC recommends that everyone 2 years and older wear a mask that covers their nose and mouth in public settings when around people not living in your household, particularly where other social distancing measures are difficult to maintain. Masks should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the mask without assistance.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ICMR  recommends that everyone 2 years and older wear a mask that covers their nose and mouth in public settings when around people not living in your household, particularly where other social distancing measures are difficult to maintain. Masks should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the mask without assistance."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should my child wear a mask?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "079b1974-4ac1-4b70-8e73-7f0d6c0c051a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Children masks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4272639b-7c12-44f0-b44d-493413b04bd9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Masks and kids",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a09975a-0a48-45b1-93f2-b0c503b91267",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can kids wear masks?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c93c5b2c-c674-4be2-97a7-9db96f8fd4d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should children wear masks?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d16c49c4-c5d0-4ef8-8903-e86a77a6f2f1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

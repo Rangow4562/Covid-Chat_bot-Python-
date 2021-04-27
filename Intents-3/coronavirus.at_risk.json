@@ -1,0 +1,172 @@
+{
+  "id": "0899c9a6-460e-487c-924f-46629b01a61f",
+  "name": "coronavirus.at_risk",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-country",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-country",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>This is a rapidly evolving situation and the risk assessment may change daily. The latest updates are available on CDC’s Coronavirus Disease 2019 (COVID-19) website.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "This is a rapidly evolving situation and the risk assessment may change daily. The latest updates are available on ICMR ’s Coronavirus Disease  (COVID-19) website."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " spreading in the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e8c81f8-f402-42e3-8333-0c4663c99439",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Am I at risk for ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " in the ",
+          "userDefined": false
+        },
+        {
+          "text": "United States",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c05ade9b-9017-48af-abb1-97b78af6bfdb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I get ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " in the ",
+          "userDefined": false
+        },
+        {
+          "text": "USA",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c7ff6e6-38f0-4df6-8fc7-4d734cfe955e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

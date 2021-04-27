@@ -1,0 +1,109 @@
+{
+  "id": "168b8d8c-5e22-4043-9797-08c6f0f9991a",
+  "name": "coronavirus.medical_care",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>It is important to continue taking care of your health and wellness. If you have a chronic health problem, you may be at higher risk for severe illness from COVID-19.   Continue your medications, and do not change your treatment plan without talking to your healthcare provider.  Continue to manage your disease the way your healthcare provider has told you. Have at least a 2-week supply of all prescription and non-prescription medications.  Talk to your healthcare provider, insurer, and pharmacist about getting an extra supply of prescription medications, if possible, to reduce trips to the pharmacy.  Talk to your healthcare provider about whether your vaccinations are up-to-date.  Call your healthcare provider if you have any concerns about your medical conditions, or if you get sick. Call your healthcare provider to find out about different ways you can connect with your healthcare provider for chronic disease management or other conditions. Ask about phone calls, video appointments, use of the patient portal, emails and mailings. Learn more about telehealth at telehealth.hhs.gov. Do not delay getting emergency care for your health problems or any health condition that requires immediate attention.If you need emergency help, call 911. Emergency departments have infection prevention plans to protect you from getting COVID-19 if you need care for your medical condition. Continue to practice everyday prevention: wash your hands often, keep space between yourself and others, cover your mouth and nose with a cloth face cover when around other people, cover coughs and sneezes, and clean and disinfect frequently touched surfaces often.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It is important to continue taking care of your health and wellness. If you have a chronic health problem, you may be at higher risk for severe illness from COVID-19. \n\nContinue your medications, and do not change your treatment plan without talking to your healthcare provider. \nContinue to manage your disease the way your healthcare provider has told you. Have at least a 2-week supply of all prescription and non-prescription medications. \nTalk to your healthcare provider, insurer, and pharmacist about getting an extra supply of prescription medications, if possible, to reduce trips to the pharmacy. \nTalk to your healthcare provider about whether your vaccinations are up-to-date. \nCall your healthcare provider if you have any concerns about your medical conditions, or if you get sick.\nCall your healthcare provider to find out about different ways you can connect with your healthcare provider for chronic disease management or other conditions. Ask about phone calls, video appointments, use of the patient portal, emails and mailings. Learn more about telehealth at telehealth.hhs.gov. Do not delay getting emergency care for your health problems or any health condition that requires immediate attention.If you need emergency help, call 911. Emergency departments have infection prevention plans to protect you from getting COVID-19 if you need care for your medical condition.\nContinue to practice everyday prevention: wash your hands often, keep space between yourself and others, cover your mouth and nose with a cloth face cover when around other people, cover coughs and sneezes, and clean and disinfect frequently touched surfaces often."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still get medical care?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cbf91e1b-a9eb-41fc-9434-908f86568824",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I go to the doctor for my other conditions?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a3b8fe8-71cd-41e1-bb95-a2b392588ffd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I still go to my regular medical appointments?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3020d453-60b8-4160-99a0-c568d2ade780",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it safe to go to the doctor right now?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "79a84b4e-7139-48fa-b2c9-8e16978c3316",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it safe to get medical care for my other medical conditions during this time?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d4d98aa-cd92-4149-9515-2310903dfe5a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

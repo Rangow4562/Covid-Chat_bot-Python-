@@ -1,0 +1,1891 @@
+{
+  "id": "ef774992-808b-4a6c-92fa-db0cbfe19c46",
+  "name": "coronavirus.confirmed_cases",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-country",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-country",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-city",
+          "dataType": "@sys.geo-city",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-city",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-state",
+          "dataType": "@sys.geo-state",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-state",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many infected with ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": true,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf4d3e8e-52af-447d-b628-529dd256ab3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many infected in ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df7ecfe9-e1ec-4ba6-8dae-fb1019ff7f4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the status in ",
+          "userDefined": false
+        },
+        {
+          "text": "Russia",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9dd8af83-a2b4-4596-b9d6-560e0661e8fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Harmony incidents have been reported in ",
+          "userDefined": false
+        },
+        {
+          "text": "Vatican",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " City",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38c40baf-4bae-469b-89ef-d59240e3e785",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many happened in ",
+          "userDefined": false
+        },
+        {
+          "text": "Vatican",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " City?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "101af8f3-90d1-4a52-b5d7-8dbf937ab43e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many incidents are in reported in ",
+          "userDefined": false
+        },
+        {
+          "text": "Vatican",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " City?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc9b4274-9f8e-448b-893c-7604700c9906",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which countries have the most of cases?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90892f90-4d48-403b-a142-a7e5b10cd916",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which states have the most ",
+          "userDefined": false
+        },
+        {
+          "text": "covid19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " cases?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29970705-cc64-4578-a800-10297d41fab5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases of covid-19 are there?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b41f0d65-47d3-4dde-aae6-3dce42e4a21a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "the United States",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "756d9987-ad01-4b5e-924f-34b8f7254aa3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "infected people in ",
+          "userDefined": false
+        },
+        {
+          "text": "india",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "f2c76595-7f32-4c07-850a-b3ee3c2051ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How is covid situation in ",
+          "userDefined": false
+        },
+        {
+          "text": "Italy",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "5108ad73-c985-4ce4-a6e0-01f8bb018be6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases of covid-19 or Animal Planet, Georgia?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86f7e653-57c4-4224-b6a5-72aea5ff3bb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are in Georgia?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6700b529-2c93-40ea-8d5b-5f7cdfe5fdf3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many incidents are there in California?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62c565cf-78bf-42e1-bc09-610ff2a64b7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " are there in ",
+          "userDefined": false
+        },
+        {
+          "text": "Nigeria",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8ee917d-a9c9-4bc6-aa3e-157ea2b26e7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people have called ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " virus in the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5ec2418-053b-429a-a386-5e5ac45c9bde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are in Massachusetts?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38ac4097-8f6c-46d4-8142-74be169b4ff8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the number of cases in the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "742f919b-0a9f-41a1-acaf-e1fde4ca83a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total number of cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "New Zealand",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "b944ee85-9376-4502-b582-d4c05f56e227",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "india",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "6d08ccf0-5575-4995-af03-6842660b6e54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "south africa",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "5e25f0b6-29af-41de-adee-e9e89f985aff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "india",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "06144bc3-08df-47b5-b2d2-e33503b63b16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "south africa",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "78ba2483-df19-48f8-b1aa-4ff52daca17f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "india",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "fc19b450-60a5-45de-b1cd-1165e47aa298",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "Jamaica",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "3b3b4bc9-80d8-472c-8118-d750e90d1a48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases in princeton",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5984792a-8d9f-48ec-9943-6cf6043bc224",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "italy",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "4115e326-18fa-4c8a-b8c2-e8502c8467a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53fc7954-85a4-4b50-bbb4-3af8c49a9ea6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "e75fe1fb-1cb4-46f6-a9c5-704d1e7ce372",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many incidents have been recorded?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f2619f4-815e-4edf-b2d5-67ae3b1a15bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many incidents have been reported to?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57b8b15d-6fec-4f19-8928-43221b7c2606",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many incidents have been reported in ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9a2e9f6-5b96-43be-a0d1-ac4ea9078e0a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases have been reported in the ",
+          "userDefined": false
+        },
+        {
+          "text": "Vatican",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " City?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81708c79-7cb4-49f3-b6f3-dc4670aab2b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "infection rate",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6dbd5c7f-0267-462a-b3f5-f59529193cc6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there ",
+          "userDefined": false
+        },
+        {
+          "text": "wuhan virus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " in my neighborhood?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9835fef1-a309-4ca2-a840-7938d0da352d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people are infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4dffc4e6-c838-457a-99c2-f359c568f39f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases are there globally",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c650b95-9d5e-425c-a27a-a69438b3ad28",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people of affected in ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f36ce942-6fac-4cf2-a4b1-c5c602863e19",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people are affected in ",
+          "userDefined": false
+        },
+        {
+          "text": "India",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60254ad3-069a-4c5b-8ab1-ea894fc5eba1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the status in the state of vermont",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b863fcf-967b-469a-a6a5-b1b5f08a9118",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many incidents have been reported in ",
+          "userDefined": false
+        },
+        {
+          "text": "Japan",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "30f82c60-b0fe-4b03-ba49-3fc1ddfae943",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases are there in marin",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "793ff776-c554-430b-88d1-31fb3aebe48d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases in Austin",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47148928-b13b-4c4b-a145-7272a66f6bc3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is the biggest outbreak",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae0c7a26-7085-4d0a-be46-6a9919487fce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases of covid are there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef151773-4f78-4abb-98c6-789e4401a4b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the infection in my state",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e80f0322-9d86-4b9a-b2b2-50ec6472201c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are there?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1557dd9a-cb20-4e03-9584-10b3340cb8f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people are infected in maryland?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5bddce3d-4eda-41c1-a721-534e4d2f609f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases did California have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e2addf0-6031-4c9a-82b2-ae58d3f426d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are open in the ",
+          "userDefined": false
+        },
+        {
+          "text": "United States",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3069003a-3d27-4f06-9694-4a2378a00d6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many known cases in georgia",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9119affa-5c4c-4d8a-a959-ae16cfeaa791",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " spreading in ",
+          "userDefined": false
+        },
+        {
+          "text": "California",
+          "userDefined": false,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2b59e6c2-f8fc-42fb-a335-92db8fba3446",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is the outbreak the worst?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ac24f5ea-bf61-44be-a9cb-cfef7d6dc9a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the latest statistics for ",
+          "userDefined": false
+        },
+        {
+          "text": "Singapore",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3759181d-7211-453a-9893-cfa3d688341d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people in the state of new york have the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bd535b6-677c-4998-a2ff-496eef8eaee1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "statistics",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43e54364-1629-4640-9442-51d3867963c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are in ",
+          "userDefined": false
+        },
+        {
+          "text": "singapore",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a28566d8-dd47-406c-9350-4ade26cfe0f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which area has the highest covid",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "06c2c335-9a7d-4f0c-ba12-abec2d615fc0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which area has covid",
+          "userDefined": false
+        },
+        {
+          "text": "19",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " infection?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0ed3ba0-4128-4877-9800-a86fcb76e997",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people are infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea1f4279-0896-45c9-b4dd-3939f6616f46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many new cases today",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be7a7e4e-9332-4261-a74d-fae5bdcdd35d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "singapore",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " cases",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea75acfa-beb1-4059-8d69-24d63d25deb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Latest cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "china",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "343464b6-9424-484b-b585-122a8040cb61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cases reported in last 6 hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a88d09eb-0dd0-4044-88a0-cdd090a1abb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cases reported in last 24 hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a7f490f-f3bd-4f45-95a5-8863d8b8b2ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "which are the states with highest cases reported",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52cbfd0c-7318-4178-9fdf-480bfb219f6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the total number of cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 0,
+      "id": "6be65d13-4434-4396-9882-2ed8819648a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " spreading in ",
+          "userDefined": false
+        },
+        {
+          "text": "California",
+          "userDefined": false,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        }
+      ],
+      "count": 0,
+      "id": "4261864b-a6fd-43c3-9425-4c3eb3fc121c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people has been effective in my area?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b528f3c-0c53-43f9-99fb-a21ad447b9c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people have been infected in my area?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f073c094-9cd9-4586-b524-2d30b95a98ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the estimated number of people infected with the covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5587f05-6b4a-430e-af8c-bf31b9303b6f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many people in Indiana have been confirmed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e315d2cf-606d-4605-a934-935a269f8b94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases in indiana have been confirmed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68c367a7-0649-4026-8794-8f6bcbb873e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many confirmed cases have been found in ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d74c0110-af56-4024-bddd-cd6bfacdd659",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the current number of cases in california",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b006131c-5aa2-4bda-8b5d-ceff68474b6d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people in the ",
+          "userDefined": false
+        },
+        {
+          "text": "United States",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " a tested positive for covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6552ae3a-e582-4408-8c1e-0dae50397aab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people have covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdaf1cb5-99ac-463c-93b1-96560e07a367",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people are effective ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98c4f8c6-d8d1-45ef-97a2-b8e1aee8e1b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people are affected by the ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa81520a-7d1a-409a-9664-327e68c0ce8e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people have caught the ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb36f7d4-4fc6-4ed0-82d9-4071da025113",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are there in ",
+          "userDefined": false
+        },
+        {
+          "text": "San Francisco",
+          "userDefined": false,
+          "alias": "geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "875dd18f-262c-4cd9-b79c-54dbb6f4f64f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are in Michigan?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "836e8e68-75dd-4ead-b415-28aba78be940",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Positive cases I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " today",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15793087-73fe-4da2-967d-d8de47cf8351",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people infected in ",
+          "userDefined": false
+        },
+        {
+          "text": "Seattle",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d262f824-bf98-4e5f-8c95-0b3d9144b400",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many confirmed cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "Seattle",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1fdd72ca-4268-4fb9-bcdd-14fe78ef4649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are there in Texas?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b18e90b3-e22d-4e68-95de-ef6b8ed272b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many ",
+          "userDefined": false
+        },
+        {
+          "text": "Americans",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " are infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed6c30f0-f4c9-4783-9e47-a3e7f3e6da1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many confirmed cases in the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d5e90b5-cfc6-4248-a4bb-411dc094eba9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many rivets of cases do to do we see?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f924db82-1bca-40e7-af6f-7ba2f316c51d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you give me the latest numbers?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbef3468-7da7-486c-b308-d79cd1d8c18f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the number of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " cases in Alameda?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "288d48e4-0b51-4638-abfc-874527826289",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Just how many people are infected with ",
+          "userDefined": false
+        },
+        {
+          "text": "Coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1031708-1007-4a65-878a-849f9930c81b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the number of confirmed cases in ",
+          "userDefined": false
+        },
+        {
+          "text": "Canada",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4143d7a8-9a2d-4861-b9c7-d087dc668ee8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many cases of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " in the ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "geo-country",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0299c0eb-c818-4d97-b920-a63c156d4531",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the total number of people who has ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9734eafa-007f-4c87-afca-ff25651b0c3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "number of cases of ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " diagnosed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da92d32c-a2de-441f-8102-fad4ea3e29b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many cases are there in my area?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1ea4790b-e150-4e60-b7b3-ec64b16e68eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "number of people who caught the disease",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0786dfad-c43d-4082-b85b-5c24f72ef622",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "total number of confirmed cases",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b9a1413-5b25-4b4e-99de-267c1d45bbfc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just how many people are infected with ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7f931fa-0f94-4e7d-8b33-be6f0670516b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many people have caught ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea3c2401-6cdb-4de2-aa6e-3b13dff57e2d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

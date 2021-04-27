@@ -1,0 +1,143 @@
+{
+  "id": "cf21dcc0-95f6-4b44-b64d-cdd4bd768eda",
+  "name": "coronavirus.contact",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>There is information for people who have had close contact with a person confirmed to have, or being evaluated for, COVID-19 available on the CDC website.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "There is information for people who have had close contact with a person confirmed to have, or being evaluated for, COVID-19 available on the ICMR website."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I've had close contact with someone who has ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "e3424bd8-ebb4-4c14-8a4f-ea36af5ca749",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do if I've met someone with ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c04c8791-6b30-4b0b-8a9e-5f108c2656f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I've been exposed to ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "b5f89d94-4086-4863-b411-31b1fd89eeac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do if I have had close contact with someone who has ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75b3a8d1-baa6-435d-a30d-ef0eb0e3454e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

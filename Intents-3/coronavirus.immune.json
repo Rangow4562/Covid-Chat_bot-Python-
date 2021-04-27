@@ -1,0 +1,153 @@
+{
+  "id": "a00e66ad-e915-4c5b-accc-85a55cdff47e",
+  "name": "coronavirus.immune",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>CDC and partners are investigating to determine if you can get sick with COVID-19 more than once. At this time, we are not sure if you can become re-infected. Until we know more, continue to take steps to protect yourself and others.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ICMR  and partners are investigating to determine if you can get sick with COVID-19 more than once. At this time, we are not sure if you can become re-infected. Until we know more, continue to take steps to protect yourself and others."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will I be immune when I get better?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04aa083b-3dda-4d2e-9a76-97a348714597",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long will I be immune after recovering?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0f70fb5-6b87-4b6c-b969-6412f839645f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you catch ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " again?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "569d9afb-159b-4bf2-b23b-0c5ac2c50b9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "If I have recovered from ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": ", will I be immune to it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e3e62cd5-6f43-4979-84ef-f8cbf0514995",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you be immune to ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66856300-b13a-4e15-b600-1c4316a7673a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

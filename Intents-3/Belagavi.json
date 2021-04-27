@@ -1,0 +1,92 @@
+{
+  "id": "868fba4c-021d-4ecc-a846-03d55c391a3f",
+  "name": "Belagavi",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-state",
+          "dataType": "@sys.geo-state",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-state",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Hi. This is the COVID-19 Chatbot.Here is your location?",
+                  "text": [
+                    "District:Belagavi",
+                    "Last Update: April 27, 2021"
+                  ],
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "📍 BIMS",
+                      "image": {},
+                      "link": "https://goo.gl/maps/dLibwDaUxZcUvdzE9"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Belagavi",
+          "userDefined": true,
+          "alias": "geo-state",
+          "meta": "@sys.geo-state"
+        }
+      ],
+      "count": 0,
+      "id": "332e27ea-1040-4343-8bb3-cd42a3dd8d72",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

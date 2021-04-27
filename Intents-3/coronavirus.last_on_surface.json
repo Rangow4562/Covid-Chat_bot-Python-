@@ -1,0 +1,512 @@
+{
+  "id": "e9dd8c1d-ca4f-4c7e-ac5b-090dd676d24c",
+  "name": "coronavirus.last_on_surface",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "surface",
+          "dataType": "@surface",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$surface",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Studies have shown that the COVID-19 virus can survive for up to 72 hours on plastic and stainless steel, less than 4 hours on copper and less than 24 hours on cardboard. Common household disinfectants will kill the virus can be used to clean surfaces.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Studies have shown that the COVID-19 virus can survive for up to 72 hours on plastic and stainless steel, less than 4 hours on copper and less than 24 hours on cardboard. Common household disinfectants will kill the virus can be used to clean surfaces."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the ",
+          "userDefined": false
+        },
+        {
+          "text": "virsus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " stay on ",
+          "userDefined": false
+        },
+        {
+          "text": "food",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        }
+      ],
+      "count": 0,
+      "id": "d3797259-d8be-477e-9e67-d2d7d008f407",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the ",
+          "userDefined": false
+        },
+        {
+          "text": "virsus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " stay on food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab20501d-a1ed-4c80-8787-3282908cf96e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the virus stay on a surface",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3e5799f-d1c1-47a5-a6bf-1543894f93af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the virus stick to surfaces",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ffc6b948-5fab-4fe5-a7c2-4c83fbed21e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can the virus stay on ",
+          "userDefined": false
+        },
+        {
+          "text": "clothes",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        }
+      ],
+      "count": 0,
+      "id": "d5c3ce9a-3ef7-4a02-8d6b-4c6d8297f72b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the last on ",
+          "userDefined": false
+        },
+        {
+          "text": "metal",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0a331f0-d327-4c39-86a2-a27259f983af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the virus last on that Hill ",
+          "userDefined": false
+        },
+        {
+          "text": "surface",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c046026-a51c-4966-931d-514294f7159d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the virus last ",
+          "userDefined": false
+        },
+        {
+          "text": "paper",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "166a4711-20bc-4687-819c-63e0e461e638",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the virus live on ",
+          "userDefined": false
+        },
+        {
+          "text": "paper",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "606f0cb8-c75b-4000-84e7-1a23de960a66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long can the virus last on ",
+          "userDefined": false
+        },
+        {
+          "text": "plastic",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3a917d40-1a60-44c9-85a1-603d497cd193",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long can the virus live on ",
+          "userDefined": false
+        },
+        {
+          "text": "plastic",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc7e7c9a-8c1e-4dc2-81c2-6c74d392325d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long can the virus stay alive on ",
+          "userDefined": false
+        },
+        {
+          "text": "clothes",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "894bcd8f-e32b-42ae-8867-4a09cfce59a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long can the virus live on ",
+          "userDefined": false
+        },
+        {
+          "text": "paper",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "565a691d-b1bb-4be0-9f52-2f93221d0078",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long does the virus last on ",
+          "userDefined": false
+        },
+        {
+          "text": "metal surfaces",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3266a5c8-265b-4704-8fa6-c1aa3fa425fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long does the virus last on ",
+          "userDefined": false
+        },
+        {
+          "text": "metal",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        }
+      ],
+      "count": 0,
+      "id": "6e03b899-ed95-4260-8e5d-8ff6ac32dff9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the virus remain on ",
+          "userDefined": false
+        },
+        {
+          "text": "surfaces",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03583c47-c66c-4e89-9471-e109a9e2cad1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long on ",
+          "userDefined": false
+        },
+        {
+          "text": "surfaces",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        }
+      ],
+      "count": 0,
+      "id": "5953cb13-18f0-4a4b-9252-1c0bf15afc6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can the virus spread from surfaces ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7656fd8-e6f9-4161-8de7-80b4f06315cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long ",
+          "userDefined": false
+        },
+        {
+          "text": "coronaviruses",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " may linger on contaminated ",
+          "userDefined": false
+        },
+        {
+          "text": "surfaces",
+          "userDefined": true,
+          "alias": "surface",
+          "meta": "@surface"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb49d537-8884-46ec-9448-3a3cffead1cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long can the new virus live on surface?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9d736f3-6606-464d-a397-3638b28b82d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long does the virus survive on surface?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94afd400-21d1-4b9e-8c1e-16ef5efc25fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does the ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " last on surface?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85d810bf-d496-4b2d-a14b-3ad371def908",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

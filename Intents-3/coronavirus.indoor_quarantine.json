@@ -1,0 +1,407 @@
+{
+  "id": "a1c784a6-4520-4459-af12-694f68c3fa80",
+  "name": "coronavirus.indoor_quarantine",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Follow local authorities for shelter in place guidelines. In addition, the CDC recommends that you stay home if you are showing signs of <sub alias=\"covid 19\">COVID-19</sub> or are mildly ill, except to get medical care. If you have <sub alias=\"covid 19\">COVID-19</sub> symptoms, separate yourself from other people and pets in your home.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Follow local authorities for shelter in place guidelines. In addition, the ICMR  recommends that you stay home if you are showing signs of COVID-19 or are mildly ill, except to get medical care. If you have COVID-19 symptoms, separate yourself from other people and pets in your home."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I need to stay at home?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5fed334-fe12-4768-b915-e4f1d3c4584a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I work from home?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46e72abd-f4d8-4989-bb30-8775975c5784",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long do I have to stay isolated?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7022ae46-6800-433e-b6f0-bb7a940e302b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long do I need to stay at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ad860bc-ac87-4b4a-a5f4-70069a695f46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long should I stay at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa39ba2f-c7ec-454e-b610-d06cfc4f9829",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is shelter in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b64bff9-9080-441f-9aec-bdc73f10d62c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when should I stay at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90483658-bb6a-49c2-987a-d9c46f7e94d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "f I get sick how long to I need to be incubated",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "182ae368-97c9-41d3-94a2-1faba8c95c4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are we required to stay in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3bc8aa3-98f5-44f5-b257-d57ba78e27b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I stay home or go outside",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "905e00a5-06fc-464c-b861-21bc258ad16a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where are we required to shelter in place\"",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4dc0d36f-b776-4b19-af48-1b7530c45824",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is shelter in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e2eaa855-dc3e-438f-ad48-5c11b87ff288",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long will this quarantine last for?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0293fd5-097c-4a6d-87cc-da645a0e2f53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where are we required to shelter in place",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8741320b-90e0-44c5-8773-54c630ab229b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why are we required to have shelter in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e0963da-3811-440a-8ebe-92ae89ce5e1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long do i need to sit in quarantaine?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a04f04b3-94fc-4a31-9a6b-a891522573c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long do I need to stay away from other people",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9b77f84-d12d-4a9c-87c7-911ec3064e3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I go outside if I'm infected?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c6b4f46-4644-4c7e-89f1-f7d9277c3063",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I leave my house?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e5443882-8a22-4cc8-8d99-521772d2bf60",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Who should stay shelter in place?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ee0451d-c5bd-4a7f-84f0-3d6af1d23e74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many days should someone with symptoms stay inside",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3d33bef8-f7a5-4824-b0c4-7ce31a1c7930",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "if I get sick how long to I need to be incubated",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fce4cef6-ff80-481b-83bf-f75149aff438",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long to I need to stay at home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd22547e-d752-4c27-add8-438640b86579",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to quarantine myself if I am sick",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1275ff24-3337-4f65-9f9f-dcb3a2bfaeb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long do I quarantine?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adb5fff7-ae8f-4f38-9c1f-eae7468f0d9a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long do I need to stay away from other people?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3051622c-f9d7-46dd-a0aa-cf2f99e3a91c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have to self quarantine? It's time I fly.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1cfc2d9-d8e3-4342-a15f-b4b2bd3e538d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long should I stay quarantined?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b57e0537-cf2b-45cc-957d-823b53737d44",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I quarantine myself?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a36e30e2-5b8e-414d-8ed5-7e1ababbdd52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I stay at home?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05a578c2-3621-4d80-8bf5-d1bfe1ebf0f6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

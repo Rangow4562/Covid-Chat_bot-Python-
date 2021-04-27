@@ -1,0 +1,115 @@
+{
+  "id": "9ea0d04f-4e73-40ed-a07a-083c3ea8a5e6",
+  "name": "coronavirus.house",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Most people who get COVID-19 will be able to recover at home. The CDC website has directions for people who are recovering at home and their caregivers.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Most people who get COVID-19 will be able to recover at home. The ICMR website has directions for people who are recovering at home and their caregivers."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Someone in my house has ",
+          "userDefined": false
+        },
+        {
+          "text": "coronavirus",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        }
+      ],
+      "count": 0,
+      "id": "1dfa878b-b5ce-4e18-90d6-927ee7eb88ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What if my roommate is sick?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9628f162-e682-4264-b273-cf612c8feb95",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I do if someone in my house gets sick with ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5a9ddba-65f5-48f6-a098-b10c61dd4315",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

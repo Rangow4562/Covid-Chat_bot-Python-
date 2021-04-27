@@ -1,0 +1,65 @@
+{
+  "id": "b7b41268-516e-4857-98dd-d24e96b31604",
+  "name": " vaccinated\r  a person require to wear\r  a mask",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Even after receiving the COVID 19 vaccine, we must\n continue taking all precautions like use of face cover or\n masks, hand sanitization and maintain distancing (6 feet or\n Do Gaj). These behaviours must be followed both at the\n session site and in general."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": " vaccinated\r  a person require to wear\r  a mask",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6443e15-c8e2-4eae-90cb-b1ff640fe818",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does a vaccinated\n a person require to wear\n a mask",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1fa02f7-6471-49d8-9a43-72ce2e94bb08",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

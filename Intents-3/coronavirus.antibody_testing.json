@@ -1,0 +1,151 @@
+{
+  "id": "89de7db3-9f41-4681-80f3-7b63b035b7af",
+  "name": "coronavirus.antibody_testing",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "covid-19",
+          "dataType": "@covid-19",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$covid-19",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Antibody testing checks a sample of a person’s blood to look for antibodies to SARS-CoV-2, the virus that causes COVID-19. These antibodies are produced when someone has been infected, so a positive result from this test indicates that person was previously infected with the virus. CDC is working with other federal agencies to evaluate the performance of commercially manufactured antibody tests that are becoming increasingly available from healthcare providers. This evaluation is expected to be completed in early May. We do not know yet if the antibodies that result from infection with SARS-CoV-2 can protect someone from reinfection with this virus (immunity) or how long antibodies to the virus will protect someone. Scientists are conducting research to answer those questions. Antibody tests may not be able to tell you if you are currently infected because it typically takes 1 to 3 weeks to develop antibodies to SARS-CoV-2. To tell if you are currently infected, you would need a test that identifies the virus in samples from your upper respiratory system, such as a nasopharyngeal swab.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Antibody testing checks a sample of a person’s blood to look for antibodies to SARS-CoV-2, the virus that causes COVID-19. These antibodies are produced when someone has been infected, so a positive result from this test indicates that person was previously infected with the virus.\nICMR is working with other federal agencies to evaluate the performance of commercially manufactured antibody tests that are becoming increasingly available from healthcare providers. This evaluation is expected to be completed in early May.\nWe do not know yet if the antibodies that result from infection with SARS-CoV-2 can protect someone from reinfection with this virus (immunity) or how long antibodies to the virus will protect someone. Scientists are conducting research to answer those questions.\nAntibody tests may not be able to tell you if you are currently infected because it typically takes 1 to 3 weeks to develop antibodies to SARS-CoV-2. To tell if you are currently infected, you would need a test that identifies the virus in samples from your upper respiratory system, such as a nasopharyngeal swab."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "COVID-19",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " antibodies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "862164b0-1ae6-4bff-bc37-3b88db6c2c3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Antibody testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da196818-dc5b-4261-8d82-3eb803dc29a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have antibodies?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a700c7c0-1976-4148-9403-c5985dda66bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I get tested for ",
+          "userDefined": false
+        },
+        {
+          "text": "COVID",
+          "userDefined": false,
+          "alias": "covid-19",
+          "meta": "@covid-19"
+        },
+        {
+          "text": " with antibodies?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "242a50e8-eb88-4cc3-a355-5812a313714c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I be tested for antibodies?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1606f8ae-680b-41ae-8322-ab8d8173222c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is antibody testing?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c570ec4-021a-4d47-9be1-cbfa8f3706e1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

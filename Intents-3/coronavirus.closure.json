@@ -1,0 +1,912 @@
+{
+  "id": "adce0bf3-3e29-4b15-923c-1d7c461c17d6",
+  "name": "coronavirus.closure",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "coronavirusclosure-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "organization",
+          "dataType": "@sys.location",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What specific type of service or business are you looking for?"
+          ],
+          "value": "$organization.original",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-city",
+          "dataType": "@sys.geo-city",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "In which city are you looking for?"
+          ],
+          "value": "$geo-city",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what ",
+          "userDefined": false
+        },
+        {
+          "text": "banks",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in Parel 400012",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f16357c4-06ce-48de-bc26-98878828790a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where's hospital if I am suspect of corona virus victim.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7679a0a3-990a-4361-905b-742332d28130",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the ",
+          "userDefined": false
+        },
+        {
+          "text": "restaurant",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be8ffe77-0a63-4f7d-b00c-6814ef7cb33d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "pharmacies",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "Boston",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c972e784-2bd6-41b7-88e8-5c9389cce162",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "hospitals",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "Dallas",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c98db75-fd66-4050-a9ae-a4686c797aa9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e04ad433-1856-49a4-996d-cb596b180960",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "schools",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "fd7ef36b-b527-4aaa-a883-83da1eb51943",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What fast food ",
+          "userDefined": false
+        },
+        {
+          "text": "restaurants",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in 30024?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbaac0ab-ebff-4eb7-ae5d-db802fcd3eae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "hospitals",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "Mumbai",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d29b04bf-b2f6-41b5-890f-0f5701087e67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "grocery stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "siliguri",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "24fb90d4-0ce4-4651-bcec-2132a4efcf34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are there any ",
+          "userDefined": false
+        },
+        {
+          "text": "hospital",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "boston",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "a3c12831-2085-4a4c-8aa4-194f57df3e54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are there any ",
+          "userDefined": false
+        },
+        {
+          "text": "hospital",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " in ",
+          "userDefined": false
+        },
+        {
+          "text": "phoenix",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "17fe9008-5c50-4a5b-9f12-bb86a4611b3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pharmacy",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " open in ",
+          "userDefined": false
+        },
+        {
+          "text": "new york",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "c1615ed9-3ccd-45a5-b2e4-361687b88312",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hospital",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " open in ",
+          "userDefined": false
+        },
+        {
+          "text": "new york",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "e5d8256e-c700-49d6-a214-69997874fe0e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open in ",
+          "userDefined": false
+        },
+        {
+          "text": "California",
+          "userDefined": true,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36f1299c-0e8c-4024-b47c-6c2f93d2cb16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "pharmacies",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40696886-e598-4436-84e0-8279d11ab2da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "grocery stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5c12b1a-89a3-4ef1-b060-1b43e4b77a46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What ",
+          "userDefined": false
+        },
+        {
+          "text": "stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " are open nearby?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bce6c86c-b83f-4578-ad87-f0d13f623f5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new york",
+          "userDefined": true,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "471616ce-b902-4aed-a77e-1080d3ec59eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are the ",
+          "userDefined": false
+        },
+        {
+          "text": "stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5198daaf-f17d-465e-a407-ae354b88c354",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are ",
+          "userDefined": false
+        },
+        {
+          "text": "airports",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6242d041-87d3-48ee-841f-665e507adcee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "will ",
+          "userDefined": false
+        },
+        {
+          "text": "stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " still be open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62295b42-050c-41dc-9bda-59aa5fa018db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will the ",
+          "userDefined": false
+        },
+        {
+          "text": "grocery store",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " can hours only for the elderly do stop?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9704891-af5b-4fe0-8414-22a990e26a77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the open ",
+          "userDefined": false
+        },
+        {
+          "text": "grocery stores",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "dddea16d-f507-4495-a193-5e504b42f00a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the ",
+          "userDefined": false
+        },
+        {
+          "text": "restaurants",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b71fd45c-2eb5-4324-a1e7-546fec1d298f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are ",
+          "userDefined": false
+        },
+        {
+          "text": "schools",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed in ",
+          "userDefined": false
+        },
+        {
+          "text": "morgan hill",
+          "userDefined": true,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": " ca?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b30edade-15ff-4386-812f-73a2fe927c68",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are ",
+          "userDefined": false
+        },
+        {
+          "text": "restaurants",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed in ",
+          "userDefined": false
+        },
+        {
+          "text": "SF",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd0e1eea-65d9-40a9-bf2c-dd272d206df7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I find ",
+          "userDefined": false
+        },
+        {
+          "text": "school",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closings?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36ab8ef6-55f4-4e4a-bc39-e85139867d77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are ",
+          "userDefined": false
+        },
+        {
+          "text": "food delivery",
+          "userDefined": false,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " services still available?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "319dcbb2-1ec4-4cd6-a81a-b745bd0ce51b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will ",
+          "userDefined": false
+        },
+        {
+          "text": "grocery stores",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " remain open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd20f0ac-cd77-4aa9-a5a9-1fd73f18f888",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are ",
+          "userDefined": false
+        },
+        {
+          "text": "restaurants",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed in ",
+          "userDefined": false
+        },
+        {
+          "text": "SF",
+          "userDefined": true,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8b3ddd8-5c48-4b4c-91c8-5ccec4cee124",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are ",
+          "userDefined": false
+        },
+        {
+          "text": "schools",
+          "userDefined": true,
+          "alias": "organization",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " closed in ",
+          "userDefined": false
+        },
+        {
+          "text": "the Bay Area",
+          "userDefined": true,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "32e7a101-4c4e-4dc5-89d8-84fc6d3868a6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

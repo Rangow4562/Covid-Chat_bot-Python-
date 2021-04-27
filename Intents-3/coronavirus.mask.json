@@ -1,0 +1,299 @@
+{
+  "id": "7fe1e41f-6c1d-4f12-b8f7-1bd408a483e9",
+  "name": "coronavirus.mask",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "telephony_synthesize_speech",
+          "platform": "telephony",
+          "condition": "",
+          "text": "<speak>Wear masks in public settings when around people not living in your household and particularly where other social distancing measures are difficult to maintain, such as grocery stores, pharmacies, and gas stations. Masks may slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others.  COVID-19 can be spread by people who do not have symptoms and do not know that they are infected. That’s why it’s important for everyone to practice social distancing (staying at least 6 feet away from other people) and wear masks in public settings. Masks provide an extra layer to help prevent the respiratory droplets from traveling in the air and onto other people.  The masks recommended are not surgical masks or N-95 respirators. Those are critical supplies that must continue to be reserved for healthcare workers and other medical first responders, as recommended by current CDC guidance.</speak>"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Wear masks in public settings when around people not living in your household and particularly where other social distancing measures are difficult to maintain, such as grocery stores, pharmacies, and gas stations. Masks may slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others.\n\nCOVID-19 can be spread by people who do not have symptoms and do not know that they are infected. That’s why it’s important for everyone to practice social distancing (staying at least 6 feet away from other people) and wear masks in public settings. Masks provide an extra layer to help prevent the respiratory droplets from traveling in the air and onto other people.\n\nThe masks recommended are not surgical masks or N-95 respirators. Those are critical supplies that must continue to be reserved for healthcare workers and other medical first responders, as recommended by current ICMR  guidance."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does ICMR  recommend the use of masks to prevent COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3843579-9bbb-47c4-bfaf-4815b48bb53f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Does ICMR  recommend the use of facemask or face coverings to prevent COVID-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc6d1355-4f91-4d8f-91f7-b85d04450f2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I cover my face to prevent coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75fb8e2a-3ed9-42ca-ada8-d46ca149d04d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Should I use a face mask to prevent COVID?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4132192-a9d8-4e1d-976e-01243de5d4d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I need to wear mask?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b61e4cd-c961-4eab-b550-85d6e5ff1e3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where to buy face masks ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f85ec61f-ba09-456f-b191-9b66942b6dc1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hi, we can I get surgical mask.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53db629b-68bc-41e4-9c29-c4ea3fb99bd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I need to wear a surgical mask?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "429fb289-2acc-4383-a4ff-08dc65de9a48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I wear a mask when I go out",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e45e45f-b175-4da0-b1be-7ed32e845a87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does it help wearing a mask",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eceeed91-60cb-4c40-bdf4-ea8af6ec4be7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I get a mask?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8422630f-0d5c-48a1-ad4b-b1e69caed1a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where can I get masks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd069877-fdeb-49ac-85df-cd1e2f720fa3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are masks effective at stopping the virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be0e4ef8-a8ec-45e0-a532-d9cf7421cef3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "does wearing a mask really help?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4277c5d9-e8c5-47f3-a33f-647421908ceb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do face masks work for stopping covid-19?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bba75e74-fe3e-45b5-95a3-e5d91ba89568",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it true that face masks won't prevent coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "064e5346-91b5-4015-aa1e-d93619c63ffb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I wear a face mask to protect against corona virus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8442e978-4f8a-437d-b54d-2c0863fbc84e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can a face mask stop coronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6fa6709-dec8-4a05-a77f-20fcb3eb5913",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can wearing a face mask protect me from the new conronavirus?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71d85109-e031-48bb-8c06-7d9316b690ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I need to wear a mask in public?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3efcc2e6-9007-4f07-83c4-d962bdb912c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "should I wear a mask to protect myself?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f90bd5b5-3c1e-4f58-9d74-d998ea5bc3a3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
