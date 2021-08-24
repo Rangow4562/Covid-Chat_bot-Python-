@@ -1,5 +1,5 @@
 Demo:
-![image](https://user-images.githubusercontent.com/70890713/125238334-b91d1f80-e304-11eb-9e4b-0e82ad06fdd8.png)http://covidsystems.xyz/  go here for demo
+http://covidsystems.xyz/  go here for demo
 
 PACKAGES:
    "firebase-admin": "^5.13.1",                                          
